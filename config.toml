@@ -1,0 +1,5 @@
+baseURL = 'http://pimpaestudomany.hu/'
+defaultContentLanguage = 'hu'
+languageCode = 'hu'
+title = 'Pimpa és Tudomány'
+theme = "ananke"
