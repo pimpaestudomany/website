@@ -2,26 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pimpaestudomany.hu/issues/2022-issue-1/sz%C3%BClet%C3%A9snapunkra/</loc>
+    <loc>http://192.168.1.107:1313/issues/2022-issue-1/sz%C3%BClet%C3%A9snapunkra/</loc>
     <lastmod>2022-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pimpaestudomany.hu/issues/2022-issue-1/nem_voltunk_fizika_tagozatosok/</loc>
+    <loc>http://192.168.1.107:1313/issues/2022-issue-1/nem_voltunk_fizika_tagozatosok/</loc>
     <lastmod>2022-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pimpaestudomany.hu/issues/2022-issue-1/a_k%C3%A9t_bolyai/</loc>
+    <loc>http://192.168.1.107:1313/issues/2022-issue-1/a_k%C3%A9t_bolyai/</loc>
     <lastmod>2022-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pimpaestudomany.hu/issues/2022-issue-1/</loc>
+    <loc>http://192.168.1.107:1313/issues/2022-issue-1/mi_a_tudom%C3%A1ny/</loc>
     <lastmod>2022-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pimpaestudomany.hu/issues/</loc>
+    <loc>http://192.168.1.107:1313/issues/2022-issue-1/</loc>
     <lastmod>2022-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pimpaestudomany.hu/</loc>
+    <loc>http://192.168.1.107:1313/issues/</loc>
     <lastmod>2022-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pimpaestudomany.hu/categories/</loc>
+    <loc>http://192.168.1.107:1313/</loc>
+    <lastmod>2022-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pimpaestudomany.hu/tags/</loc>
+    <loc>http://192.168.1.107:1313/categories/</loc>
+  </url><url>
+    <loc>http://192.168.1.107:1313/tags/</loc>
   </url>
 </urlset>

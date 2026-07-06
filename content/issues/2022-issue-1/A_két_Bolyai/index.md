@@ -49,6 +49,8 @@ _Kevesen tudják, hogy létezik egy matematika csapatverseny, amelyet Bolyai Já
 
 **P&T Ideje tisztáznunk, ténylegesen hogyan zajlik maga a verseny?**
 
+![Bolyai képernyő](bolyai-screen.jpg)
+
 **SZA** Aki befizette a nevezési díjat, az belép az oldalra, és amikor idő van, le tudja tölteni pdf-ben a feladatsort. Először úgy csináltuk még, hogy személyesen találkoztunk Endréék irodájában, és akkor ő gyorsan kinyomtatta. Azt hiszem, tizenöt feladat volt, és akkor úgy kezdtük szétosztani…
 
 **PA** … bátorság szerint…
@@ -192,8 +194,6 @@ Mondjuk kapunk ajándékokat, például tollat meg USB kulcsokat.
 **DD** Én három éve készítem a felvételikre a gyerekeket. Minden héten csinálnak egyet, én meg kijavítom, megbeszélem velük.
 
 **MP** De a Bolyaira igazából csak a Bolyaival lehet készülni. A nyakatekert megközelítés meg a próbálgatás mindenek felett. Engem idegesítenek is ezek a feladatok.
-
-![Bolyai képernyő](bolyai-screen.jpg)
 
 **DD** Néha vannak a felvételiben is ilyenek elrejtve.
 

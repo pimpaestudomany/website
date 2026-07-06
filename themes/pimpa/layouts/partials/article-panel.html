@@ -8,7 +8,7 @@
   {{ end }}
   <div class="panel-body">
     {{ with .Params.kicker }}<p class="kicker">{{ . }}</p>{{ end }}
-    <h3 class="panel-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <h3 class="panel-title"><a href="{{ .Permalink }}">{{ partial "inline-markdown.html" .Title }}</a></h3>
     {{ with .Params.author }}<p class="panel-byline">{{ . }}</p>{{ end }}
     {{ with .Params.description }}<p class="panel-description"><a href="{{ $.Permalink }}">{{ . }}</a></p>{{ end }}
   </div>

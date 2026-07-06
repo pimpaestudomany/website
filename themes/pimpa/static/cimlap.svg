@@ -12,7 +12,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview693"
+     id="namedview57"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
@@ -20,15 +20,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="pt"
+     inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="6.9751106"
-     inkscape:cx="201.4305"
-     inkscape:cy="60.85925"
-     inkscape:window-width="2560"
-     inkscape:window-height="1403"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="2.4755246"
+     inkscape:cx="256.10733"
+     inkscape:cy="96.74717"
+     inkscape:window-width="1856"
+     inkscape:window-height="1131"
+     inkscape:window-x="64"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg697" />
   <defs
@@ -279,25 +279,23 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.7956px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke-width:0.846191"
-     x="16.583584"
-     y="154.28944"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.808px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'\'\' Times New Roman Bold';stroke-width:0.846854"
+     x="16.569773"
+     y="154.41025"
      id="text797"
-     transform="scale(1.1282541,0.8863252)"><tspan
-       sodipodi:role="line"
+     transform="scale(1.1291374,0.8856318)"><tspan
        id="tspan795"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.7956px;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif Bold';stroke-width:0.846191"
-       x="16.583584"
-       y="154.28944">Kulturális, tudományos és közéleti magazin</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.808px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';stroke-width:0.846854"
+       x="16.569773"
+       y="154.41025">Kulturális, tudományos és közéleti magazin</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:9.99998px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';stroke-width:0.75"
+     style="font-size:9.99998px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.75;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
      x="19.862909"
      y="16.403318"
      id="text959"><tspan
-       sodipodi:role="line"
        id="tspan957"
-       style="stroke-width:0.75"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.75"
        x="19.862909"
        y="16.403318">Világ Pimpái egyesüljetek!</tspan></text>
 </svg>

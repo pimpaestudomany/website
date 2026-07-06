@@ -1,18 +1,13 @@
 <footer class="site-footer">
   <div class="container site-footer-inner">
-    <div class="contact-details">
-      <h2>Contact</h2>
-      {{ with site.Params.contactEmail }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
-      {{ with site.Params.contactPhone }}<p>{{ . }}</p>{{ end }}
-      {{ with site.Params.contactAddress }}<p>{{ . }}</p>{{ end }}
-    </div>
-    {{ with site.Params.social }}
-      <ul class="social-links">
-        {{ range $network, $url := . }}
-          <li><a href="{{ $url }}" rel="me noopener" target="_blank">{{ $network | humanize }}</a></li>
-        {{ end }}
-      </ul>
-    {{ end }}
+    <div class="footer-about">
+      <div class="footer-text">
+        <p>A Lovassy László Gimnázium 1992-ben érettségizett matematika tagozatos osztályának tudományos, kuturális és közéleti magazinja. Szerkesztők: Golden Dániel és Péter László. Email címünk: <a href="mailto:info@pimpaestudomany.hu">info@pimpaestudomany.hu</a></p>
+        <p>Kiadja a Paralelepipedon Zrt. Megjelenik nagyon ritkán, kb. 25 példányban. Még mindig nem terjeszti a Magyar Posta. Kéziratokat Google drive-on tárolunk, de néha eltűnnek. A lapot mindenki saját felelősségére olvashatja!</p>
+        <p>A címlapon jelzett fizetőeszközökön kívül elfogadható még: 0,0001; 1 üveg EKF2023 sör; 1 vödör kumisz; 2m³ földgáz; 2 talicska lengyel szén. Az online változat ingyenes, de persze nem olyan jó. Ez már csak így van.</p>
     <p class="copyright">&copy; {{ now.Year }} {{ site.Params.magazineName | default site.Title }}</p>
+      </div>
+      <img class="footer-image" src="{{ "Pimpa_stamp.jpg" | relURL }}" alt="Pimpa pecsét">
+    </div>
   </div>
 </footer>

@@ -13,6 +13,7 @@ weight = 40
 Mi akkoriban épp csak elkezdtük az egyetemet, a tudományba épp hogy csak belekóstoltunk, de vannak, akik azóta maguk is tudósok lettek. A P&T három tudóssal, egykori osztálytársakkal beszélgetett.
 
 ![Dr. Miklós István](Pista.png)
+{.align-right}
 
 **Dr. Miklós István** a Rényi Alfréd Matematikai Kutatóintézet tudományos főmunkatársa. Számítástudománnyal foglalkozik, leszámlálások, mintavételezések számítástudományával. Történelmi okokból a sztochasztika osztályon van, az enumeratív kombinatorikához érzi magát közel. Amikor zoomon beszélgettünk, büszkén viselte a lovassys pólóját, amire a Középiskolai MTA Alumni Program révén tett szert.
 
@@ -28,6 +29,7 @@ Hálával gondol vissza a Lovassyra: „Schultz Zolinak nagyon meg kell köszön
 **István:** „A tudomány az, amikor ilyen kivonós játékból (Althöfer, Ingo; Bültermann, Jörg: Superlinear period lengths in some subtraction games. Theoretical Computer Science, 1995) ilyen fraktálvideót csinálsz.”
 
 ![Dr. Galajda Péter](Galajda.png)
+{.align-right}
 
 **Dr. Galajda Péter** Szegeden végzett fizikusként, most a Szegedi Biológiai Kutatóközpont tudományos főmunkatársa. Nagyon régóta nem találkoztunk, én csak arra emlékeztem, hogy a Bolognai Egyetemen csinált valamit valami optikai csipeszekkel.
 
@@ -46,6 +48,7 @@ A szilikongumin átmegy az oxigén, üveglappal irreverzibilisen lezárható.”
 **Péter:** „Az ember próbálja a világot megismerni valamilyen racionális eszközökkel, racionális keretrendszerben.”
 
 ![Golden Dániel PhD](GoldenDani.png)
+{.align-right}
 
 **Golden Dániel PhD**t nehéz volt rábeszélni az interjúra, de szerzőnk kitartó nyaggatása végül sikerrel járt. Dani a Bölcsészettudományi Kutatóközpont Filozófiai Intézetének tudományos munkatársa, és az intézeti tudományos titkár szerepkörét is ő tölti be jelenleg. Kutatási területei a digitális kultúra, a pragmatizmus és a tudományfilozófia – már előre érzem, hogy végre meg fogjuk tudni, mi a tudomány!
 

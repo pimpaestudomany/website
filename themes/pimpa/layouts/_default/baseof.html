@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title | markdownify | plainify }} · {{ site.Title }}{{ end }}</title>
   {{ with .Description | default site.Params.tagline }}<meta name="description" content="{{ . }}">{{ end }}
   <link rel="icon" href="{{ "favicon.ico" | absURL }}">
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}

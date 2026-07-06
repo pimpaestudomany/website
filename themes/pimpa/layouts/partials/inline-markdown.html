@@ -1,0 +1,4 @@
+{{- $html := trim (. | markdownify) "\n" -}}
+{{- $html = strings.TrimPrefix "<p>" $html -}}
+{{- $html = strings.TrimSuffix "</p>" $html -}}
+{{- $html | safeHTML -}}
