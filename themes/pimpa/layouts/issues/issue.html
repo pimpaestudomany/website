@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="container">
+  <header class="issue-header">
+    <p class="issue-eyebrow"><a href="{{ "issues" | relURL }}">Összes kiadás</a></p>
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="issue-blurb">{{ . }}</p>{{ end }}
+  </header>
+  <div class="article-grid">
+    {{ range .Pages.ByWeight }}
+      {{ partial "article-panel.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

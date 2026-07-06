@@ -1,0 +1,14 @@
+<article class="issue-card">
+  {{ with .Resources.GetMatch (.Params.cover | default "cover.*") }}
+    {{ with .Resize "500x" }}
+      <a class="issue-card-image" href="{{ $.Permalink }}">
+        <img src="{{ .RelPermalink }}" alt="" width="{{ .Width }}" height="{{ .Height }}" loading="lazy">
+      </a>
+    {{ end }}
+  {{ end }}
+  <div class="issue-card-body">
+    <h3 class="issue-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    {{ with .Params.description }}<p class="issue-card-description">{{ . }}</p>{{ end }}
+    <p class="issue-card-date">{{ .Date.Format "2006.01." }}</p>
+  </div>
+</article>

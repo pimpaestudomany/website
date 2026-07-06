@@ -1,0 +1,14 @@
+{{ with site.GetPage "issues" }}
+  {{ $issues := .Pages.ByDate.Reverse }}
+  {{ if $issues }}
+    <div class="issue-nav">
+      <label for="issue-select" class="visually-hidden">Kiadás olvasása</label>
+      <select id="issue-select" name="issue" onchange="if(this.value) window.location.href=this.value">
+        <option value="">Összes kiadás&hellip;</option>
+        {{ range $issues }}
+          <option value="{{ .Permalink }}" {{ if eq . $ }}selected{{ end }}>{{ .Title }}</option>
+        {{ end }}
+      </select>
+    </div>
+  {{ end }}
+{{ end }}

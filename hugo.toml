@@ -1,0 +1,21 @@
+baseURL = 'https://pimpaestudomany.hu/'
+locale = 'en-us'
+title = 'Pimpa és Tudomány'
+theme = 'pimpa'
+
+[params]
+  magazineName   = "Pimpa és Tudomány"
+  tagline        = "News and stories from our neighbourhood"
+  contactEmail   = "info@pimpaestudomany.hu"
+
+[params.social]
+
+[menus]
+  [[menus.main]]
+    name   = "Címlap"
+    url    = "/"
+    weight = 10
+  [[menus.main]]
+    name   = "Kiadások"
+    url    = "/issues/"
+    weight = 20

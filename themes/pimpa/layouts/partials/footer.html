@@ -1,0 +1,18 @@
+<footer class="site-footer">
+  <div class="container site-footer-inner">
+    <div class="contact-details">
+      <h2>Contact</h2>
+      {{ with site.Params.contactEmail }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+      {{ with site.Params.contactPhone }}<p>{{ . }}</p>{{ end }}
+      {{ with site.Params.contactAddress }}<p>{{ . }}</p>{{ end }}
+    </div>
+    {{ with site.Params.social }}
+      <ul class="social-links">
+        {{ range $network, $url := . }}
+          <li><a href="{{ $url }}" rel="me noopener" target="_blank">{{ $network | humanize }}</a></li>
+        {{ end }}
+      </ul>
+    {{ end }}
+    <p class="copyright">&copy; {{ now.Year }} {{ site.Params.magazineName | default site.Title }}</p>
+  </div>
+</footer>

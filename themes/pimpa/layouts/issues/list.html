@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Content }}<div class="page-content">{{ . }}</div>{{ end }}
+  <div class="issue-grid">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ partial "issue-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

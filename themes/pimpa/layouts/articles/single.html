@@ -1,0 +1,56 @@
+{{ define "main" }}
+<div class="container">
+  <article class="article">
+    <header class="article-header">
+      {{ with .Parent }}<p class="article-eyebrow"><a href="{{ .Permalink }}">&larr; {{ .Title }}</a></p>{{ end }}
+      {{ with .Params.kicker }}<p class="kicker">{{ . }}</p>{{ end }}
+      <h1 class="page-title">{{ .Title }}</h1>
+      <p class="article-meta">
+        {{ with .Params.author }}{{ . }}{{ end }}
+        {{ if not .Date.IsZero }}&middot; <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>{{ end }}
+      </p>
+    </header>
+    {{ with .Resources.GetMatch (.Params.image | default "cover.*") }}
+      {{ with .Resize "1200x" }}
+        <img class="article-image" src="{{ .RelPermalink }}" alt="" width="{{ .Width }}" height="{{ .Height }}">
+      {{ end }}
+    {{ end }}
+    <div class="article-content">{{ .Content }}</div>
+  </article>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img class="lightbox-img" id="lightbox-img" alt="">
+</div>
+
+<script>
+(function () {
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightbox-img');
+
+  document.querySelectorAll('.article-image, .article-content img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      lightboxImg.src = img.currentSrc || img.src;
+      lightboxImg.alt = img.alt || '';
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
+{{ end }}

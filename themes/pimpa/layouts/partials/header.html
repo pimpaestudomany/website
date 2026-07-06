@@ -1,0 +1,96 @@
+<header class="site-header">
+  <div class="container site-header-inner">
+    <a class="masthead" href="{{ "/" | relURL }}">
+      <span class="masthead-logo-wrap">
+        <div class="crest-sentinel" aria-hidden="true"></div>
+        <span class="masthead-logo-slot">
+          <img class="masthead-logo" src="{{ "cimlap.svg" | absURL }}" alt="{{ site.Params.magazineName | default site.Title }}">
+        </span>
+        <img class="masthead-crest" src="{{ "cimer.svg" | absURL }}" alt="">
+      </span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" hidden>
+        {{ range site.Menus.main }}
+          {{ if eq .Name "Issues" }}
+            <li class="nav-item has-submenu">
+              <div class="nav-item-row">
+                <button class="submenu-toggle" aria-expanded="false"></button>
+                <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+              </div>
+              {{ with site.GetPage "issues" }}
+                {{ $issues := .Pages.ByDate.Reverse }}
+                {{ if $issues }}
+                  <ul class="submenu" hidden>
+                    {{ range $issues }}
+                      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+              {{ end }}
+            </li>
+          {{ else }}
+            <li class="nav-item"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="header-sentinel" aria-hidden="true"></div>
+
+<script>
+(function () {
+  var navToggle = document.getElementById('nav-toggle');
+  var navMenu = document.getElementById('nav-menu');
+
+  navToggle.addEventListener('click', function () {
+    var open = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', String(!open));
+    navMenu.hidden = open;
+    if (!open && !navMenu.style.width) {
+      navMenu.style.width = navMenu.offsetWidth + 'px';
+    }
+  });
+
+  document.querySelectorAll('.submenu-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.closest('.has-submenu').querySelector('.submenu').hidden = open;
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!document.getElementById('main-nav').contains(e.target)) {
+      navToggle.setAttribute('aria-expanded', 'false');
+      navMenu.hidden = true;
+    }
+  });
+
+  var header = document.querySelector('.site-header');
+  var sentinel = document.querySelector('.header-sentinel');
+  if (header && sentinel && 'IntersectionObserver' in window) {
+    var headerObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        header.classList.toggle('header-compact', !entry.isIntersecting);
+      });
+    });
+    headerObserver.observe(sentinel);
+  }
+
+  var logoWrap = document.querySelector('.masthead-logo-wrap');
+  var crestSentinel = document.querySelector('.crest-sentinel');
+  if (logoWrap && crestSentinel && 'IntersectionObserver' in window) {
+    var logoObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        logoWrap.classList.toggle('logo-pinned', !entry.isIntersecting);
+      });
+    });
+    logoObserver.observe(crestSentinel);
+  }
+})();
+</script>

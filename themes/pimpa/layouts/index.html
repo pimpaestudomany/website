@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="container">
+  {{ with site.GetPage "issues" }}
+    {{ $latest := index .Pages.ByDate.Reverse 0 }}
+    {{ with $latest }}
+      <section class="latest-issue">
+        <div class="latest-issue-heading">
+          <h1>{{ .Title }}</h1>
+          {{ with .Params.description }}<p class="issue-blurb">{{ . }}</p>{{ end }}
+          <a class="btn" href="{{ .Permalink }}">A legfrissebb kiadás</a>
+        </div>
+        <div class="article-grid">
+          {{ range .Pages.ByWeight }}
+            {{ partial "article-panel.html" . }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

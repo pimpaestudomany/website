@@ -1,0 +1,15 @@
+<article class="panel">
+  {{ with .Resources.GetMatch (.Params.image | default "cover.*") }}
+    {{ with .Resize "600x" }}
+      <a class="panel-image" href="{{ $.Permalink }}">
+        <img src="{{ .RelPermalink }}" alt="" width="{{ .Width }}" height="{{ .Height }}" loading="lazy">
+      </a>
+    {{ end }}
+  {{ end }}
+  <div class="panel-body">
+    {{ with .Params.kicker }}<p class="kicker">{{ . }}</p>{{ end }}
+    <h3 class="panel-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    {{ with .Params.author }}<p class="panel-byline">{{ . }}</p>{{ end }}
+    {{ with .Params.description }}<p class="panel-description"><a href="{{ $.Permalink }}">{{ . }}</a></p>{{ end }}
+  </div>
+</article>
