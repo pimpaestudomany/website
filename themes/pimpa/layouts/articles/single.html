@@ -10,11 +10,6 @@
         {{ if not .Date.IsZero }}&middot; <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>{{ end }}
       </p>
     </header>
-    {{ with .Resources.GetMatch (.Params.image | default "cover.*") }}
-      {{ with .Resize "1200x" }}
-        <img class="article-image" src="{{ .RelPermalink }}" alt="" width="{{ .Width }}" height="{{ .Height }}">
-      {{ end }}
-    {{ end }}
     <div class="article-content">{{ .Content }}</div>
   </article>
 </div>

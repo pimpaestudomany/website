@@ -9,6 +9,8 @@ image = 'cover.jpg'
 weight = 10
 +++
 
+![Veszprém rajz](Veszprém.jpg)
+
 *32* éves lett a Pimpa és Tudomány és, miként József Attila és mai követői (ld. 18. oldal), megleptük magunkat és lelkes olvasóinkat egy rendkívüli számmal.
 32 évünk elszelelt, és be kell ismernünk, hogy a P&T nem tud felmutatni gazdasági sikereket (ld. 14-15. oldal), olvasótáborunk stagnál, a tőkeemelés a Paralelepipedon Rt-től (ld. 14. oldal) ma már a nyomtatási költségeket sem fedezi. A sörárakkal ellentétben bevételeink az inflációt sem követték, rezsicsökkentés és uniós finanszírozás ide vagy oda, svájci frankban vagy forintosítva, továbbra is csak rászorulunk az orosz földgázra és a kínai piacra.
 Lehettünk volna az ország legnépszerűbb szórakoztató és tudományos magazinja, vagy a szabad sajtó utolsó fellegvára (ld. 10-11. oldal), de nem lettünk, mert harminc évvel ezelőtt Veszprém híres gimnáziuma tarisznyát tett a vállunkra benne csontra száradt pogácsával, és mi az évszázados hagyományokat követve elballagtunk. Nem csak elballagtunk, de szétszéledtünk – busszal, vonattal, repülővel (ld. térképünket a hátsó borítón.)

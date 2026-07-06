@@ -1,6 +1,6 @@
 <article class="panel">
   {{ with .Resources.GetMatch (.Params.image | default "cover.*") }}
-    {{ with .Resize "600x" }}
+    {{ with .Resize "350x" }}
       <a class="panel-image" href="{{ $.Permalink }}">
         <img src="{{ .RelPermalink }}" alt="" width="{{ .Width }}" height="{{ .Height }}" loading="lazy">
       </a>

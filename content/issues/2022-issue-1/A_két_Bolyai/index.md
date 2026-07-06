@@ -9,6 +9,8 @@ image = 'cover.jpg'
 weight = 30
 +++
 
+![Zoom screenshot](zoom.jpg)
+
 _Kevesen tudják, hogy létezik egy matematika csapatverseny, amelyet Bolyai Jánosról neveztek el. Még kevesebben, hogy ennek van egy felnőttek számára meghirdetett kategóriája. A mai napig pedig csak egészen kevesen, hogy a legjobbak között szereplő csapatok közül kettőben is egykori osztályunk komoly érdekeltségekkel bír. Pulai András szervező munkájának köszönhetően sikerült egy zoomba terelni az érintetteket. A beszélgetés résztvevői Damján Dóra, Molnár Péter, Pulai András, Szekendy Alajos, Vecsey-Körmendi Andrea, Wagner Endre és a szerkesztett változat szerzője, Golden Dániel voltak._
 
 **P&T Az egyik csapat neve Oldjuk+. Hogyan született ez, kinek a humorérzékét dicséri?**

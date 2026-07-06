@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Issue 1 — June 2026 on The Community Voice</title>
+		<link>http://192.168.1.107:1313/issues/2026-06-issue-1/</link>
+		<description>Recent content in Issue 1 — June 2026 on The Community Voice</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://192.168.1.107:1313/issues/2026-06-issue-1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Welcome to the Neighbourhood</title>
+				<link>http://192.168.1.107:1313/issues/2026-06-issue-1/welcome-to-the-neighbourhood/</link>
+				<pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://192.168.1.107:1313/issues/2026-06-issue-1/welcome-to-the-neighbourhood/</guid>
+				<description>&lt;p&gt;We&amp;rsquo;re thrilled to bring you the first issue of &lt;em&gt;The Community Voice&lt;/em&gt; — a magazine written&#xA;by neighbours, for neighbours. Every issue we&amp;rsquo;ll share the stories, events, and people that&#xA;make this place feel like home.&lt;/p&gt;&#xA;&lt;p&gt;Got a story to tell? Get in touch — the details are in the footer of every page.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Local Market Returns</title>
+				<link>http://192.168.1.107:1313/issues/2026-06-issue-1/local-market-returns/</link>
+				<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://192.168.1.107:1313/issues/2026-06-issue-1/local-market-returns/</guid>
+				<description>&lt;p&gt;The Saturday market is back, bringing fresh produce, local crafts, and live music to the&#xA;town square every weekend this spring.&lt;/p&gt;&#xA;&lt;p&gt;Organisers say more than thirty stallholders have already signed up, with room for a few&#xA;more — reach out via the contact details below if you&amp;rsquo;d like a stall.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -9,6 +9,8 @@ image = 'cover.jpg'
 weight = 20
 +++
 
+![Schultz Zoltán](SchZoli.jpg)
+
 _1986-ban egy lelkes ifjú matematika-fizika szakos tanár érkezett a Lovassy Gimnáziumba. Két évvel később a speciális matematika tagozatos osztály osztályfőnöke lett, 2007-től pedig az iskola igazgatója. A Pimpa és Tudomány fotóriportere és kiküldött tudósítója a igazgatói irodában, beküldött tudósítóink pedig szimultán zoomon kérdezték Schultz Zolit az elmúlt harminc évről, a Lovassyról, az osztályunkról, az életről, az univerzumról meg mindenről._
 
 **P&T Hány 32 éve fennálló és a mai napig nagy népszerűségnek örvendő osztályújságot tudnál felsorolni? _(A Pimpa és Tudományra mindig jellemző volt a szerénység és visszafogottság, távol állt tőle mindennemű öntömjénező fellengzősség – a szerkesztő megjegyzése.)_**

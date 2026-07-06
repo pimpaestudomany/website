@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A két Bolyai · Pimpa és Tudomány</title>
+  <meta name="description" content="Kevesen tudják, hogy létezik egy matematika csapatverseny, amelyet Bolyai Jánosról neveztek el. Még kevesebben, hogy ennek van egy felnőttek számára meghirdetett kategóriája. A mai napig pedig csak egészen kevesen, hogy a legjobbak között szereplő csapatok közül kettőben is egykori osztályunk komoly érdekeltségekkel bír. Pulai András szervező munkájának köszönhetően sikerült egy zoomba terelni az érintetteket. A beszélgetés résztvevői Damján Dóra, Molnár Péter, Pulai András, Szekendy Alajos, Vecsey-Körmendi Andrea, Wagner Endre és a szerkesztett változat szerzője, Golden Dániel voltak.">
+  <link rel="icon" href="https://pimpaestudomany.hu/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/main.min.df11f44dedd9bcb85a3d9c2e164618d61c3587e873273116f7d5e161f6195001.css" integrity="sha256-3xH0Te3ZvLhaPZwuFkYY1hw1h&#43;hzJzEW99XhYfYZUAE=">
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header">
+  <div class="container site-header-inner">
+    <a class="masthead" href="/">
+      <span class="masthead-logo-wrap">
+        <div class="crest-sentinel" aria-hidden="true"></div>
+        <span class="masthead-logo-slot">
+          <img class="masthead-logo" src="https://pimpaestudomany.hu/cimlap.svg" alt="Pimpa és Tudomány">
+        </span>
+        <img class="masthead-crest" src="https://pimpaestudomany.hu/cimer.svg" alt="">
+      </span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" hidden>
+        
+          
+            <li class="nav-item"><a href="/">Címlap</a></li>
+          
+        
+          
+            <li class="nav-item"><a href="/issues/">Kiadások</a></li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="header-sentinel" aria-hidden="true"></div>
+
+<script>
+(function () {
+  var navToggle = document.getElementById('nav-toggle');
+  var navMenu = document.getElementById('nav-menu');
+
+  navToggle.addEventListener('click', function () {
+    var open = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', String(!open));
+    navMenu.hidden = open;
+    if (!open && !navMenu.style.width) {
+      navMenu.style.width = navMenu.offsetWidth + 'px';
+    }
+  });
+
+  document.querySelectorAll('.submenu-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.closest('.has-submenu').querySelector('.submenu').hidden = open;
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!document.getElementById('main-nav').contains(e.target)) {
+      navToggle.setAttribute('aria-expanded', 'false');
+      navMenu.hidden = true;
+    }
+  });
+
+  var header = document.querySelector('.site-header');
+  var sentinel = document.querySelector('.header-sentinel');
+  if (header && sentinel && 'IntersectionObserver' in window) {
+    var headerObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        header.classList.toggle('header-compact', !entry.isIntersecting);
+      });
+    });
+    headerObserver.observe(sentinel);
+  }
+
+  var logoWrap = document.querySelector('.masthead-logo-wrap');
+  var crestSentinel = document.querySelector('.crest-sentinel');
+  if (logoWrap && crestSentinel && 'IntersectionObserver' in window) {
+    var logoObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        logoWrap.classList.toggle('logo-pinned', !entry.isIntersecting);
+      });
+    });
+    logoObserver.observe(crestSentinel);
+  }
+})();
+</script>
+
+    <main class="site-main">
+      
+<div class="container">
+  <article class="article">
+    <header class="article-header">
+      <p class="article-eyebrow"><a href="https://pimpaestudomany.hu/issues/2022-issue-1/">&larr; III. évfolyam, 1-7,2 szám</a></p>
+      <p class="kicker">Helyzetjelentés a feladatmegoldás frontvonalából</p>
+      <h1 class="page-title">A két Bolyai</h1>
+      <p class="article-meta">
+        Golden Dániel
+        &middot; <time datetime="2022-09-10">10 September 2022</time>
+      </p>
+    </header>
+    
+      
+        <img class="article-image" src="/issues/2022-issue-1/a_k%C3%A9t_bolyai/cover_hu_b64cf36270425d43.jpg" alt="" width="1200" height="691">
+      
+    
+    <div class="article-content"><p><em>Kevesen tudják, hogy létezik egy matematika csapatverseny, amelyet Bolyai Jánosról neveztek el. Még kevesebben, hogy ennek van egy felnőttek számára meghirdetett kategóriája. A mai napig pedig csak egészen kevesen, hogy a legjobbak között szereplő csapatok közül kettőben is egykori osztályunk komoly érdekeltségekkel bír. Pulai András szervező munkájának köszönhetően sikerült egy zoomba terelni az érintetteket. A beszélgetés résztvevői Damján Dóra, Molnár Péter, Pulai András, Szekendy Alajos, Vecsey-Körmendi Andrea, Wagner Endre és a szerkesztett változat szerzője, Golden Dániel voltak.</em></p>
+<p><strong>P&amp;T Az egyik csapat neve Oldjuk+. Hogyan született ez, kinek a humorérzékét dicséri?</strong></p>
+<p><strong>PA</strong> Ez nagyon prózai. Valamit be kellett írni a nevezésbe, mert az Endre akkora menedzser volt már akkor is, hogy ezt a feladatot simán kiosztotta. Úgyhogy az elsőre én neveztem, és akkor ennyi, hogy akkor én…</p>
+<p><strong>MP</strong> Szóval van benne egy vicc. Nem adja könnyen magát, de van benne.</p>
+<p><strong>P&amp;T Ez mikor volt?</strong></p>
+<p><strong>PA</strong> 2019-et tartanám valószínűnek, mert az volt az én emlékeim szerint, hogy az Andi felállt, amikor az osztálytalálkozó volt, és elmesélte, hogy nekik van egy Bolyai-csapatuk, és egyébként ezt ők szokták játszani. Ezt az egészet az Andi indította el, már azt, hogy megszülessen ez a másik csapat.</p>
+<p><strong>MP</strong> Szerintem ez már akkor egyből volt 2017-ben, amikor volt az osztálytalálkozó így nyáron, és októberben mi már indultunk is.</p>
+<p><strong>PA</strong> Ez stimmel, igazad lesz, mert ötévente van, és én azt hittem, hogy négyévente…</p>
+<p><strong>SZA</strong> Megkerestem az első e-mailem, amiben a „Bolyai” szó szerepel, az 2017.10.04, és itt már pontszámítások meg ilyenek voltak.</p>
+<p><strong>P&amp;T Ezen a ponton rá kell kérdeznünk arra a híresztelésre, amely szerint Andi csapata olyan volna, mint Columbo felesége: mindig szó van róla, de még soha senki nem látta. Most is eltelt húsz perc ebből a hívásból, és Andi még mindig nem tárcsázott be…</strong></p>
+<p><strong>DD</strong> Kaláka a neve, ott van az eredményekben. És azt üzente, hogy már a neten van…</p>
+<p><strong>P&amp;T Valahol a „neten”…??? Tehát abból a csapatból csak őt ismerjük?</strong></p>
+<p><strong>DD</strong> Nem, engem is.</p>
+<p><strong>P&amp;T De az előzetes beszélgetésből az derült ki, hogy te is a fiúkhoz csatlakoztál eredetileg.</strong></p>
+<p><strong>DD</strong> Először ebben voltam, aztán meg abban. Kipróbáltam mind a kettőt.</p>
+<p><strong>P&amp;T És mennyi volt az átigazolási pénz?</strong></p>
+<p><strong>DD</strong> Egy mosoly volt, egy mosoly! Igazából kiraktak abból a fiúcsapatból. Kaptam három feladatot, amiből kettőt nem lehetett megoldani, mert nem volt megoldása, egyet meg találgatni kellett. Ilyen feladatokat kaptam a fiúktól, így osztották rám.</p>
+<p><strong>SZA</strong> Lehet, hogy én háttal ültem a moziban, de ilyenre nem emlékszem. Mindig volt megoldás, persze gyakran nem tudtuk megoldani.</p>
+<p><strong>P&amp;T Ideje tisztáznunk, ténylegesen hogyan zajlik maga a verseny?</strong></p>
+<p><strong>SZA</strong> Aki befizette a nevezési díjat, az belép az oldalra, és amikor idő van, le tudja tölteni pdf-ben a feladatsort. Először úgy csináltuk még, hogy személyesen találkoztunk Endréék irodájában, és akkor ő gyorsan kinyomtatta. Azt hiszem, tizenöt feladat volt, és akkor úgy kezdtük szétosztani…</p>
+<p><strong>PA</strong> … bátorság szerint…</p>
+<p><strong>MP</strong> … az első embernek az 1-5-9-13, a másodiknak a 2-6-10-14 stb.</p>
+<p><strong>P&amp;T Úgy van, hogy az elején a könnyebbek, a végén a nehezebbek?</strong></p>
+<p><strong>SZA</strong> Nem feltétlenül. Fontos tudni, hogy semmi olyan tudás nem kell hozzá, ami magasabb matematikai ismeret. Elvileg egy nagyon okos nyolcadik osztályos is meg tudná csinálni, csak nagyon rafináltak a kérdések, és ha rosszul indulsz el, esélyed sincs még arra sem, hogy részeredményeket érjél el.</p>
+<p><strong>PA</strong> Nem is kell végiggondolni, csak bizonyos válaszokat megpróbálsz kizárni, bizonyos válaszokat megpróbálsz megtalálni.</p>
+<p><strong>SZA</strong> Merthogy több jó válasz is lehetséges.</p>
+<p><strong>MP</strong> Csak nem tudod, hogy mennyi a jó, ugye. És azért is pontlevonás jár, ha egy jót kihagysz, meg azért is, ha egy rosszat beikszelsz.</p>
+<p><strong>P&amp;T Tehát önállóan dolgozik mindenki?</strong></p>
+<p><strong>SZA</strong> Fél óra után volt az első összenézés, hogy ki hogy áll, és aki jól állt, az bevállalt még valamit. Először nagyon frusztráló, hogy úgy érzed, lövésed sincs a feladatokhoz…</p>
+<p><strong>PA</strong> A vége szokott jó lenni, amikor egy picit még beszélünk róla, meg utána a napi dolgokról. Én azt a részét szeretem a legjobban, amikor vége van, elment a feszültség, és akkor lehet egy kicsit még dumálni, az a legjobb.</p>
+<p><strong>P&amp;T Van egy időlimit, hogy meddig kell visszaküldeni?</strong></p>
+<p><strong>SZA</strong> Egy óra. Bármennyiszer lehet, és az utolsó az érvényes. Tehát érdemes 55 percnél elküldeni egyet, hogy azért bemenjen, és utána lehet még, ha van mit. És ugye csak a tippsort kell beküldeni.</p>
+<p><strong>P&amp;T Időközben Andi is megérkezett. Itt már rengeteg műhelytitokra fény derült, de mi a ti csapatotok története?</strong></p>
+<p><strong>VKA</strong> Nekem mindig másik csapatom van. Az irodában szoktuk összeszervezni a kollégákból, akiket sikerül behalászni. Kivéve a tavalyi évet, amikor családi csapattal indultunk, Dórival együtt, mert ő is a családhoz tartozik!</p>
+<p><strong>P&amp;T A honlap szerint 2016-ban volt a verseny először felnőtteknek is meghirdetve.</strong></p>
+<p><strong>VKA</strong> Mi már ott az elsőn részt is vettünk. Azért kezdtük el, mert a fiam, Marci járt a Bolyai-versenyekre, és hogy motiváló legyen neki, hogy nemcsak ő versenyzik, hanem én is megszervezem a felnőtteknek.</p>
+<p><strong>P&amp;T Mi is a ti csapatotok neve?</strong></p>
+<p><strong>VKA</strong> Mindig más nevünk van attól függően, hogy mit választanak a többiek abban az évben.</p>
+<p><strong>DD</strong> Eddie, a sas – az volt 2016-ban, és a 14. helyen voltatok!</p>
+<p><strong>VKA</strong> Mindig új névvel jövünk, nehogy az előző évi eredményünkből ítéljék meg, hogy kik vagyunk. Általában valami az építészettel: É-π-tészek, Jó Archok…</p>
+<p><strong>P&amp;T Vannak-e sérelmeitek a versennyel kapcsolatban?</strong></p>
+<p><strong>VKA</strong> Most például nem lehetett időben rákapcsolódni a feladatsorra, nem lehetett elérni.</p>
+<p><strong>WE</strong> De mi átküldtük nektek, segítő kezet nyújtottunk! És utána meg is hosszabbították a beadási határidőt.</p>
+<p><strong>VKA</strong> Azért az stresszes volt, hogy nem jutunk hozzá.</p>
+<p><strong>PA</strong> Meg hogy soha nem jön utána egy zsíros állásajánlat, én ezt sérelmezem.</p>
+<p><strong>MP</strong> Igen, ez örök sérelem, hogy a Balabit már hat éve nem vesz fel térképészeket, botrány!</p>
+<p><strong>WE</strong> Már megszűnt a cég egyébként, név szerint is…</p>
+<p><strong>MP</strong> &hellip; nem ragaszkodunk a névhez…</p>
+<p><strong>PA</strong> Jó, hát akkor a Balasys. Minden évben el vagyunk hajtva egy burkolt interjúra, és soha nem jön utána zsíros állásajánlat. Hiába vagy bent az első tízben, mert egyszer benne voltunk…</p>
+<p><strong>WE</strong> … többször is…</p>
+<p><strong>PA</strong> … nekem ez a nagy sérelmem!</p>
+<p>Mondjuk kapunk ajándékokat, például tollat meg USB kulcsokat.</p>
+<p><strong>MP</strong> Azért lesüllyedt a színvonal ezen a téren is. Csak az első évben kaptunk USB-t.</p>
+<p><strong>VKA</strong> De azt csak az első tíz kapja, nem?</p>
+<p><strong>MP</strong>  Nem, ez a balabitos tárgyalóba van bekészítve.</p>
+<p><strong>WE</strong> Tudjátok, a csapat összeül, kell egy kis frissítő, kell egy kis csoki…</p>
+<p><strong>PA</strong>  Meg kapunk kávét. Nálatok nem így megy?</p>
+<p><strong>VKA</strong> Nálunk nehezített pálya van, mert munkaidőben van a verseny. Az irodában vagyunk, van, aki dolgozik, van, aki csinálja a matek feladatokat, aztán néha jönnek be ügyfelek, és akkor ott kell hagyni a feladatot, gyorsan kiszolgálni, tehát nincs olyan, hogy a munkaidő leáll, és csak erre lehet koncentrálni.</p>
+<p><strong>WE</strong> Ki kell venni a kollégákat a robotból egy órára!</p>
+<p><strong>VKA</strong> Ezt mindig megpróbáljuk, nem mindig sikerül. Mondjuk az idei évben sikerült, de nem kerültünk be az első tízbe. Úgyhogy Dóri azt mondta, hogy el is hagyja a csapatunkat.</p>
+<p><strong>DD</strong> Igen, így döntöttem. Ahova mentem, ott tele van Mensa-tagokkal, úgyhogy most velük próbálkozom.</p>
+<p><strong>VKA</strong> De ez tulajdonképpen nem akkora sérelem, mert Dóri elhagyta a fiúk csapatát is, aztán a miénket is, szóval gondolom, most keres olyat, amelyikkel sikeresebb lehet.</p>
+<p><strong>P&amp;T A verseny mottója szerint „az összedolgozás képessége az egyik legnagyobb érték az életben.” Ez nálatok hogyan valósul meg?</strong></p>
+<p><strong>VKA</strong> Kiosztunk mindenkinek három vagy négy feladatot. Először mindenki meghatározza, hogy milyen feladatot szeretne, könnyebbet, közepeset vagy nehezet. Kb. fél óra, amíg mindenki egyedül dolgozhat, utána viszont elkezdünk csereberélni a feladatokkal, hogy mondjuk ezzel nem tudtam mit kezdeni, és akkor valaki más megkapja.</p>
+<p><strong>WE</strong> Nálunk évről évre változott. Az elején még mindenki megcsinálta a saját feladatát, aztán nagyjából csak bediktáltuk az eredményeket. Most már volt előolvasás, meg közös gondolkodás a végén egy-egy feladaton, hogy kinek mi jut eszébe. De mi is azt a módszert követtük, hogy szétdobáltuk a feladatokat, mindenki egyénileg elkezdett rajtuk dolgozni, és utána ha esetleg valahol valami gond volt, akkor kértünk segítséget. Nem feltétlenül adtuk át, hanem hátha közösen valamire jutunk, valami ötlet jön, amivel más irányt lehet venni.</p>
+<p><strong>VKA</strong> Nekem az a tapasztalatom, hogy kevés ez az egy óra. Marcival szoktunk megoldani feladatokat a Bolyai előtt, de akkor nem volt időkeret, és azért ez így stresszelős még annak ellenére is, hogy nem megy tétre.</p>
+<p><strong>P&amp;T Tudjuk, hogy a Lovassy nem egy versenyistálló, de azért ne menjünk el az eredményesség kérdése mellett. Hogy állunk ezzel?</strong></p>
+<p><strong>DD</strong> A fiúk 2018-ban és 2020-ban is 7. helyezettek lettek.</p>
+<p><strong>PA</strong> Ez úgy van, hogy először még nem derül ki, hogy hányadikak vagyunk, csak az, hogy benne vagyunk az első tízben. Utána várni kell, és aztán amikor kiderül, hogy nem vagy benne az első ötben…</p>
+<p><strong>WE</strong> … az első háromban…</p>
+<p><strong>PA</strong> &hellip; akkor megmondják, hogy hányadik vagy, mert akkor már hátha nem reklamálsz.</p>
+<p><strong>WE</strong> Ilyenkor rengeteg csapat elkezd reklamálni, hogy még pontokat szerezzen, de ebben mi nem jeleskedünk. Egyszer sem reklamáltunk, úgyhogy ez egy sérelem a mi részünkről.</p>
+<p><strong>SZA</strong> Az én legnagyobb sérelmem, amikor az egyik évben volt egy nehéz feladat, amit én jól megcsináltam. Aztán valaki megreklamálta, hogy a kiírás szerint nem volt egyértelmű, és akkor azt elfogadták, és nem kaptuk meg a teljes pontszámot, csak valami részpontot. Én úgy tudtam, hogy gólt rúgni a meccsen kell, azon a pályán, ami ki van tűzve.</p>
+<p><strong>PA</strong> Szóval ezzel, hogy először nem hirdetnek sorrendet, ott azért benne van ez is, hogy mi van, ha valaki mond egy jobb megoldást, mint a miénk.</p>
+<p><strong>WE</strong> Valójában a feladatkiírással van a probléma, hogy nem egyértelmű, és így bele lehet trükközni ilyen egyéb megoldásokkal.</p>
+<p><strong>P&amp;T Minek tulajdonítható, hogy az egyik év jobban sikerül, mint a másik?</strong></p>
+<p><strong>SZA</strong> Hát a rutin meg a tapasztalat.</p>
+<p><strong>WE</strong> Szerintem a felkészülés. Amikor előtte azért megoldunk egy-két feladatot, akkor megy jobban, amikor meg nem készülünk, csak beesünk, akkor kevésbé.</p>
+<p><strong>MP</strong> Van egy orosz rulett része is. Van, hogy tíz percig nézel egy feladatot, és beleragadsz, mert mindig ugyanabba a zsákutcába mész bele. Ha meg egy másik szem ránéz, ő egyből meglátja, ha nem is a megoldást, de hogy hogyan lehet megcsinálni.</p>
+<p><strong>P&amp;T Milyen edzésmunkát végeztek?</strong></p>
+<p><strong>VKA</strong> Én a gyerekekkel szoktam, a többiek nem szoktak. Amikor a gyerekek jártak a Bolyaira, mindig kaptak feladatsorokat gyakorolni. Úgyhogy én ilyen könnyített általános iskolás feladatsorokkal szoktam edzeni, de ezek is hasonló jellegűek.</p>
+<p><strong>DD</strong> Úgy van a felnőtt, hogy az összes korosztály feladataiból szedik össze.</p>
+<p><strong>WE</strong> Matek szakos gimibe járnak a srácok, a székesfehérvári Teleki Blankába, előfordul, hogy együtt szoktunk feladatokat megoldani.</p>
+<p><strong>VKA</strong> Marci a debreceni Fazekasba jár, most ez volt benne a Lovassy helyett a legjobb 10-ben…</p>
+<p><strong>P&amp;T Erre rá is kérdezünk egy másik interjúnkban (ld. a 2-4. oldalon). De térjünk vissza a felkészülésre!</strong></p>
+<p><strong>MP</strong> Én az elsőre készültem a legtöbbet, a legutóbbira meg már semmit. Ráadásul úgy estem be pont a kezdésre, mert úgy emlékeztem, hogy fél órával később kezdődik, még szerencse, hogy előbb akartam menni, hogy előtte dumáljunk egy kicsit…</p>
+<p><strong>PA</strong> Én nem készülök, csak elmegyek.</p>
+<p><strong>WE</strong> Elküldöm neked a feladatsorokat, aztán nem csinálod meg…</p>
+<p><strong>PA</strong> Majdnem kinyomtatom. Talán egyszer egy-kettőt megcsináltam…</p>
+<p><strong>DD</strong> Én három éve készítem a felvételikre a gyerekeket. Minden héten csinálnak egyet, én meg kijavítom, megbeszélem velük.</p>
+<p><strong>MP</strong> De a Bolyaira igazából csak a Bolyaival lehet készülni. A nyakatekert megközelítés meg a próbálgatás mindenek felett. Engem idegesítenek is ezek a feladatok.</p>
+<p><img src="bolyai-screen.jpg" alt="Bolyai képernyő"></p>
+<p><strong>DD</strong> Néha vannak a felvételiben is ilyenek elrejtve.</p>
+<p><strong>SZA</strong> Vannak olyanok, amiket csak a brute force módszerrel lehet megoldani: van huszonegy eset, és azt mind meg kell nézni, mert tényleg csak így lehet. Az ilyenekre Misi bácsi soha nem mondta volna, hogy „milyen szép megoldás”.</p>
+<p><strong>P&amp;T Miért csináljátok mégis, mindezek ellenére?</strong></p>
+<p><strong>WE</strong> Mert izgalmas.</p>
+<p><strong>MP</strong> Azért csináljuk, mert nincsen olyan matek verseny, ahol olyan feladatok lennének, amiket mi szeretnénk.</p>
+<p><strong>WE</strong> Ebben szerintem az a jó, hogy van csapat.</p>
+<p><strong>MP</strong> Igen, az mindenképpen.</p>
+<p><strong>P&amp;T Talán meg kellene alapítani a Bolyai konkurenciáját… Végezetül azonban inkább az iránt érdeklődnénk, hogy mik a terveitek a jövőre nézve?</strong></p>
+<p><strong>PA</strong> Szerintem jó lenne, ha visszajönnének a komolyabb ajándékok.</p>
+<p><strong>VKA</strong> De kitől lehet ajándékot kapni, mondjátok már meg!</p>
+<p><strong>PA</strong> Hát a csapatvezetőtől, kitől?!</p>
+<p><strong>DD</strong> Andi, nem kaptam ajándékot!</p>
+<p><strong>VKA</strong> Lehet, hogy ezért nem állandó a csapatom, most már rájöttem, mert nem kapnak ajándékot… Lehet, hogy bevezetem!</p>
+<p><strong>PA</strong> Ezt én javasolom!</p>
+<p><strong>WE</strong> Lehet, hogy így a Dórit is meg tudtad volna tartani a csapatban…</p>
+<p><strong>DD</strong> Bizony!</p>
+<p><strong>VKA</strong> Nem baj, majd jövőre visszacsábítom!</p>
+<p><strong>DD</strong> Megnézem a csapatomat, aztán eldöntöm…</p>
+<p>**P&amp;T Na és mik a csapatvezetői elvárások?</p>
+<p><strong>WE</strong> Szerintem idén első öt, de inkább dobogó.</p>
+<p><strong>PA</strong> De többen is beszállhatnának még.</p>
+<p><strong>VKA</strong> Nekem nagy motiváció ahhoz, hogy induljunk, hogy ti vagytok egy másik csapat az osztályból. Talán az osztálytalálkozón másokat is meggyőzhetünk!**</p>
+<p><img src="feladv%C3%A1ny.png" alt="feladvány"></p>
+</div>
+  </article>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img class="lightbox-img" id="lightbox-img" alt="">
+</div>
+
+<script>
+(function () {
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightbox-img');
+
+  document.querySelectorAll('.article-image, .article-content img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      lightboxImg.src = img.currentSrc || img.src;
+      lightboxImg.alt = img.alt || '';
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container site-footer-inner">
+    <div class="contact-details">
+      <h2>Contact</h2>
+      <p><a href="mailto:info@pimpaestudomany.hu">info@pimpaestudomany.hu</a></p>
+      
+      
+    </div>
+    
+    <p class="copyright">&copy; 2026 Pimpa és Tudomány</p>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>
