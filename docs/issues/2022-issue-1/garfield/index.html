@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Garfield – korunk hőse · Pimpa és Tudomány</title>
+  <meta name="description" content="Ki ne látta volna már ezt a szeretnivalóan gömbölyded, csíkos macskát, Garfieldot? Hát nem aranyos? Hát nem.">
+  <link rel="icon" href="https://pimpaestudomany.hu/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/main.min.2eaf99cbee40a675f8839f6dcacccbb0fa871732f73011af0cfe127406e3b173.css" integrity="sha256-Lq&#43;Zy&#43;5ApnX4g59tyszLsPqHFzL3MBGvDP4SdAbjsXM=">
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header">
+  <div class="container site-header-inner">
+    <a class="masthead" href="/">
+      <span class="masthead-logo-wrap">
+        <div class="crest-sentinel" aria-hidden="true"></div>
+        <span class="masthead-logo-slot">
+          <img class="masthead-logo" src="https://pimpaestudomany.hu/cimlap.svg" alt="Pimpa és Tudomány">
+        </span>
+        <img class="masthead-crest" src="https://pimpaestudomany.hu/cimer.svg" alt="">
+      </span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" hidden>
+        
+          
+            <li class="nav-item"><a href="/">Címlap</a></li>
+          
+        
+          
+            <li class="nav-item"><a href="/issues/">Kiadások</a></li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="header-sentinel" aria-hidden="true"></div>
+
+<script>
+(function () {
+  var navToggle = document.getElementById('nav-toggle');
+  var navMenu = document.getElementById('nav-menu');
+
+  navToggle.addEventListener('click', function () {
+    var open = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', String(!open));
+    navMenu.hidden = open;
+    if (!open && !navMenu.style.width) {
+      navMenu.style.width = navMenu.offsetWidth + 'px';
+    }
+  });
+
+  document.querySelectorAll('.submenu-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.closest('.has-submenu').querySelector('.submenu').hidden = open;
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!document.getElementById('main-nav').contains(e.target)) {
+      navToggle.setAttribute('aria-expanded', 'false');
+      navMenu.hidden = true;
+    }
+  });
+
+  var header = document.querySelector('.site-header');
+  var sentinel = document.querySelector('.header-sentinel');
+  if (header && sentinel && 'IntersectionObserver' in window) {
+    var headerObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        header.classList.toggle('header-compact', !entry.isIntersecting);
+      });
+    });
+    headerObserver.observe(sentinel);
+  }
+
+  var logoWrap = document.querySelector('.masthead-logo-wrap');
+  var crestSentinel = document.querySelector('.crest-sentinel');
+  if (logoWrap && crestSentinel && 'IntersectionObserver' in window) {
+    var logoObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        logoWrap.classList.toggle('logo-pinned', !entry.isIntersecting);
+      });
+    });
+    logoObserver.observe(crestSentinel);
+  }
+})();
+</script>
+
+    <main class="site-main">
+      
+<div class="container">
+  <article class="article">
+    <header class="article-header">
+      <p class="article-eyebrow"><a href="https://pimpaestudomany.hu/issues/2022-issue-1/">&larr; III. évfolyam, 1-7,2 szám</a></p>
+      
+      <h1 class="page-title">Garfield – korunk hőse</h1>
+      <p class="article-meta">
+        Szekendy Alajos
+        &middot; <time datetime="2022-09-10">10 September 2022</time>
+      </p>
+    </header>
+    <div class="article-content"><p>Ki ne látta volna már ezt a szeretnivalóan gömbölyded, csíkos macskát, Garfieldot? Hát nem aranyos? Hát nem.</p>
+<p>Emlékszem, nyugatnémet autók hátsó szélvédőjén láttam először jó néhány évvel ezelőtt. Elég siralmas látvány volt ez a narancssárga szőrcsomó, ahogy a nagy gülü szemeivel kétségbeesetten kapaszkodott műanyag tapadókorongjai segítségével egy VW Golf hátsó ablakában.</p>
+<p>Nem sokat törődtem vele, rögtön besoroltam a manapság általunk „Európa”-ként tisztelt országok hülyeségei közé, mint Donald kacsa, Alf, Tini Nindzsa Teknőcök. Hosszú ideig nem is láttam viszont, még a páneurópai szubkultúra rendszeres hírhozói, a török rágógumik matricái sem hoztak hírt felőle, pedig aztán azokban Alftól a Knight Riderig minden előfordult. A teljességhez hozzátartozik, hogy az említett állatkák (kacsák, egerek, macskák, kutyák, teknőcök) szinte kivétel nélkül nem Európából, hanem minden bóvli és giccs őshazájából, Amerikából származnak, de ez a lényegen nem változtat, angolszász bóvlik egytől egyig. Jómagam ide sorolom a Coca-Colát és a McDonald’s-ot is, de ez más lapra tartozik.<sup>*</sup></p>
+<p>De térjünk vissza Garfieldhoz. Hosszú szünet után ismét feltűnt, nem is akárhogyan. Történt ugyanis, hogy néhány elvetemült programozó őt választotta egy számítógépes játék főhőséül. Bámulatosan primitív program volt.<sup>**</sup></p>
+<p>Ekkoriban macskánk szerencsecsillaga már emelkedőben volt, a német képes magazinok rendszeresen közöltek egyoldalas Garfield képregényeket. Akkor még azt hittem, hatalmas poénok rejtőznek bennük, úgyhogy nővéremmel le is fordíttattam néhányat. Hát, mondhatom, nagyokat kacagtam.</p>
+<p>Aztán a rendszerváltás, a határok megnyitása után sok egyéb mellett ránk zúdult az elmúlt négy évtized hidegháborún érlelt kulturális penészgombájának minden spórája. Nálunk is kezdett feltünedezni a Garfield póló, Garfield poszter, garfieldos kakaós bögre stb. És megjelent a Garfield újság is, tovább tarkítva az amúgy is iromba hazai lapkínálatot.<sup>***</sup> Bár kétségtelen, ez a lap hézagpótló munka, hiszen ha valakinek épp Garfieldra fáj a foga…</p>
+<p>Akkor mégis miért olyan sikeres? Mi lehet az oka Garfield fantasztikus sikerének? Az biztos, hogy nem a mély filozófiai és erkölcsi mondanivalója miatt, és valószínűleg vizuálisan sem nyújt nagy élményt. Mit esznek hát az emberek ezen a mindenféle másodlagos nemi jelleget nélkülöző narancssárga macskán?</p>
+<p>Európa népei a macskát elsősorban lustaságával, élősködő természetével és hízelkedésével jellemzik (ld. csizmás kandúr). Garfield tökéletesen megfelel ennek a képnek, sőt, jóval túl is tesz rajta. Életében két fontos dolog van csak: evés, alvás. Hedonizmusa kimerül a gasztronómiai élvezetekben és a tunyázásban. Ennyi és semmi több. Semmi alkohol, semmi cigaretta, semmi drog, semmi szex. Mindez érthető, állítólag Lucky Luke szájából is a dohányzás elleni kampány nyomására került ki a cigaretta, és melyik szülő adna a gyermeke kezébe olyan képregényt, aminek főhőse aktív nemi életet él? De az már tényleg furcsa, hogy Garfield párkapcsolatok terén sem túl aktív. Ez lehet, hogy androgün voltának  egyenes következménye, esetleg így védekezik az AIDS ellen, de valószínűbb ok, hogy a szerelmi életben érhetik az embert csalódások, de a lasagne és az ágy soha nem hagyja cserben (vö. miért jobb a sör a nőknél?).</p>
+<p>Garfield sok mindent látott, tapasztalt, már semmin nem tud meglepődni. Neki is nagy szüksége volna a Monty Python Macska-összezavaró Kft-jére. Lehetetlen nem észrevenni a párhuzamot Joyce Ulyssese és Garfield között. Leopold Bloom, a dublini kispolgár és Garfield is egy hősi lehetőségeitől megfosztott világban tévelygő, sodródó antihős. A hasonlóság azonban a különbségekre is felhívja a figyelmet: míg Joyce hőse még ha öntudatlanul is, de a homéroszi előd babérjai után kapkod, addig Garfield semmi ilyet nem tesz. Ő nem kíván egy dicső, heroikus múlt romjain élősködő parazita lenni, nem vágyakozik a múlt után. Számára a kiüresedett, elidegenedett világban az életnek egyedül a lázadás ad értelmet (vö. Camus: A lázadó ember). De milyen ez a lázadás? Garfield nemcsak vállalja saját devianciáját és társadalomból való kirekesztettségét – vagyis naracssárga bundáját és kövérségét –, hanem büszke is rá. Viselkedése pedig egyenesen a protestáns munkaetika arculcsapása, és ezzel együtt az őt létrehozó posztindusztriális társadalomé is. Nem viaskodik a lét legvégső kérdéseivel, nem gyötrik kétségek, nem fűti tudásvágy, csak az evés és az alvás.</p>
+<p>Ám a lasagnéval vívott küzdelem maga is betöltheti egy macska szívét. Boldognak kell elképzelnünk Garfieldot.</p>
+<p><sup>*</sup> Elsőre kicsit megijedtem, hogy a harminc évvel ezelőtti önmagam ennyire csúnyán keverte az európai és az amerikai popkultúrát és nem szubkultúrát. A globális kapitalizmus súlyos kritikája a dörgő szavak ellenére nem marxi gyökerű, hanem egyértelműen a KGZ-féle eltartott kisujjas értelmiségi fanyalgás pontos lenyomata.<br>
+<sup>**</sup> Ez a mondat nem öregedett szépen. Még mai szemmel nézve is jópofa mászkálós-ugrálós platformjátéknak tűnik.<br>
+<sup>***</sup> Újabb KGZizmus: iromba mint tarka.</p>
+</div>
+  </article>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img class="lightbox-img" id="lightbox-img" alt="">
+</div>
+
+<script>
+(function () {
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightbox-img');
+
+  document.querySelectorAll('.article-image, .article-content img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      lightboxImg.src = img.currentSrc || img.src;
+      lightboxImg.alt = img.alt || '';
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container site-footer-inner">
+    <div class="footer-about">
+      <div class="footer-text">
+        <p>A Lovassy László Gimnázium 1992-ben érettségizett matematika tagozatos osztályának tudományos, kuturális és közéleti magazinja. Szerkesztők: Golden Dániel és Péter László. Email címünk: <a href="mailto:info@pimpaestudomany.hu">info@pimpaestudomany.hu</a></p>
+        <p>Kiadja a Paralelepipedon Zrt. Megjelenik nagyon ritkán, kb. 25 példányban. Még mindig nem terjeszti a Magyar Posta. Kéziratokat Google drive-on tárolunk, de néha eltűnnek. A lapot mindenki saját felelősségére olvashatja!</p>
+        <p>A címlapon jelzett fizetőeszközökön kívül elfogadható még: 0,0001; 1 üveg EKF2023 sör; 1 vödör kumisz; 2m³ földgáz; 2 talicska lengyel szén. Az online változat ingyenes, de persze nem olyan jó. Ez már csak így van.</p>
+    <p class="copyright">&copy; 2026 Pimpa és Tudomány</p>
+      </div>
+      <img class="footer-image" src="/Pimpa_stamp.jpg" alt="Pimpa pecsét">
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>

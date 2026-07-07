@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Három balkezes huszita egy harci szekéren · Pimpa és Tudomány</title>
+  <meta name="description" content="Legutóbbi számunkban közöltünk egy nagyon érdekes matematika feladatot, amire sajnálatos módon eddig nem érkezett megoldás. Ez teljességgel érthetetlen, hiszen a megoldásához nem volt szükség semmiféle különleges, spec. matematika tagozaton nem tanított ismeretre. Tovább nem várva a beküldőkre, közöljük a helyes megoldást.">
+  <link rel="icon" href="https://pimpaestudomany.hu/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/main.min.2eaf99cbee40a675f8839f6dcacccbb0fa871732f73011af0cfe127406e3b173.css" integrity="sha256-Lq&#43;Zy&#43;5ApnX4g59tyszLsPqHFzL3MBGvDP4SdAbjsXM=">
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header">
+  <div class="container site-header-inner">
+    <a class="masthead" href="/">
+      <span class="masthead-logo-wrap">
+        <div class="crest-sentinel" aria-hidden="true"></div>
+        <span class="masthead-logo-slot">
+          <img class="masthead-logo" src="https://pimpaestudomany.hu/cimlap.svg" alt="Pimpa és Tudomány">
+        </span>
+        <img class="masthead-crest" src="https://pimpaestudomany.hu/cimer.svg" alt="">
+      </span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" hidden>
+        
+          
+            <li class="nav-item"><a href="/">Címlap</a></li>
+          
+        
+          
+            <li class="nav-item"><a href="/issues/">Kiadások</a></li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="header-sentinel" aria-hidden="true"></div>
+
+<script>
+(function () {
+  var navToggle = document.getElementById('nav-toggle');
+  var navMenu = document.getElementById('nav-menu');
+
+  navToggle.addEventListener('click', function () {
+    var open = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', String(!open));
+    navMenu.hidden = open;
+    if (!open && !navMenu.style.width) {
+      navMenu.style.width = navMenu.offsetWidth + 'px';
+    }
+  });
+
+  document.querySelectorAll('.submenu-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.closest('.has-submenu').querySelector('.submenu').hidden = open;
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!document.getElementById('main-nav').contains(e.target)) {
+      navToggle.setAttribute('aria-expanded', 'false');
+      navMenu.hidden = true;
+    }
+  });
+
+  var header = document.querySelector('.site-header');
+  var sentinel = document.querySelector('.header-sentinel');
+  if (header && sentinel && 'IntersectionObserver' in window) {
+    var headerObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        header.classList.toggle('header-compact', !entry.isIntersecting);
+      });
+    });
+    headerObserver.observe(sentinel);
+  }
+
+  var logoWrap = document.querySelector('.masthead-logo-wrap');
+  var crestSentinel = document.querySelector('.crest-sentinel');
+  if (logoWrap && crestSentinel && 'IntersectionObserver' in window) {
+    var logoObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        logoWrap.classList.toggle('logo-pinned', !entry.isIntersecting);
+      });
+    });
+    logoObserver.observe(crestSentinel);
+  }
+})();
+</script>
+
+    <main class="site-main">
+      
+<div class="container">
+  <article class="article">
+    <header class="article-header">
+      <p class="article-eyebrow"><a href="https://pimpaestudomany.hu/issues/2022-issue-1/">&larr; III. évfolyam, 1-7,2 szám</a></p>
+      <p class="kicker">A matematika érettségi-felvételi felkészítő feladat megoldása*</p>
+      <h1 class="page-title">Három balkezes huszita egy harci szekéren</h1>
+      <p class="article-meta">
+        Szekendy Alajos fejtörője
+        &middot; <time datetime="2022-09-10">10 September 2022</time>
+      </p>
+    </header>
+    <div class="article-content"><p>Legutóbbi számunkban közöltünk egy nagyon érdekes matematika feladatot, amire sajnálatos módon eddig nem érkezett megoldás. Ez teljességgel érthetetlen, hiszen a megoldásához nem volt szükség semmiféle különleges, spec. matematika tagozaton nem tanított ismeretre. Tovább nem várva a beküldőkre, közöljük a helyes megoldást.</p>
+<p>Ez volt a feladat:</p>
+<p><img src="matfeladat.jpg" alt="matematika feladat"></p>
+<p>Az I. egyenlet megoldásai a 9, illetve az 1/81, ezek közül csak a 9 pozitív egész. Ez kettes számrendszerben 1001, amire a megadott megfeleltetést alkalmazva: — ∪ ∪ —, ami egy korijambus. Mindenki tudja, hogy ilyet Zrínyi Miklós, a költő-hadvezér írt először magyar nyelven. Az ő képe két gimnáziumi tankönyvben is megtalálható^**^: másodikos irodalom, illetve történelem, de a továbbiakban egyértelműen kiderül, hogy a történelem könyvre gondoltunk, mert az irodalom könyvben nem lehetne elegendőt visszalapozni.</p>
+<p>Nyitva van a könyvünk a költő-hadvezér képénél a 270. oldalon, és rögtön le is olvashatjuk születésének és halálának évét (1620–1664), ha esetleg nem tudnánk fejből. Ezek négyzetének különbsége 144 496.</p>
+<p>A II. egyenlet megoldásai (lehet, hogy ezt nem sikerült megoldani?!): 19, 71, 107, melyek szorzata 144 343. 144 496 maradéka a 144 343-mal való osztás után 153. Ha visszalapozunk ennyi oldalt (270-153=117), a 117. oldalon van nyitva a könyvünk. Itt a lap alján egy képet látunk^***^ egy XV. sz. végi huszita harci szekérről.</p>
+<p>Ha jobban megvizsgáljuk a szekéren álló embereket, észrevehetjük, hogy mindegyik figura balkezes. Valószínűleg fordítva került be a kép a könyvbe, ezért állt elő ez a furcsa helyzet, mert gondoljunk csak bele: három balkezes huszita egy harci szekéren&hellip;?!?!?!</p>
+<p><img src="matmegoldas.jpg" alt="matematika feladat eredeti megoldása"></p>
+<p><sup>*</sup> A megoldás már 1992-ben készen volt, kéziratban előkerült, minimális változtatásokkal közöljük.<br>
+<sup>**</sup> Az 1992-ben használatban lévő tankönyvekről van szó.<br>
+<sup>***</sup> Sajnos nem sikerült másodikos történelem könyvet fellelni, így képet nem tudunk mellékelni, esetleg majd a P&amp;T következő számában.</p>
+</div>
+  </article>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img class="lightbox-img" id="lightbox-img" alt="">
+</div>
+
+<script>
+(function () {
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightbox-img');
+
+  document.querySelectorAll('.article-image, .article-content img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      lightboxImg.src = img.currentSrc || img.src;
+      lightboxImg.alt = img.alt || '';
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container site-footer-inner">
+    <div class="footer-about">
+      <div class="footer-text">
+        <p>A Lovassy László Gimnázium 1992-ben érettségizett matematika tagozatos osztályának tudományos, kuturális és közéleti magazinja. Szerkesztők: Golden Dániel és Péter László. Email címünk: <a href="mailto:info@pimpaestudomany.hu">info@pimpaestudomany.hu</a></p>
+        <p>Kiadja a Paralelepipedon Zrt. Megjelenik nagyon ritkán, kb. 25 példányban. Még mindig nem terjeszti a Magyar Posta. Kéziratokat Google drive-on tárolunk, de néha eltűnnek. A lapot mindenki saját felelősségére olvashatja!</p>
+        <p>A címlapon jelzett fizetőeszközökön kívül elfogadható még: 0,0001; 1 üveg EKF2023 sör; 1 vödör kumisz; 2m³ földgáz; 2 talicska lengyel szén. Az online változat ingyenes, de persze nem olyan jó. Ez már csak így van.</p>
+    <p class="copyright">&copy; 2026 Pimpa és Tudomány</p>
+      </div>
+      <img class="footer-image" src="/Pimpa_stamp.jpg" alt="Pimpa pecsét">
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>
