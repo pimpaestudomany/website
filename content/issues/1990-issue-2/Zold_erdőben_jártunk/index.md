@@ -8,6 +8,9 @@ image = 'cover.png'
 weight = 10
 +++
 
+![hátizsákos túrázó rajza](cover.png)
+{.align-left}
+
 {{< old-arial >}}
 
 Osztályunk különleges vonzódása a természet, a túrázás iránt , valamint a tavalyi élmények késztettek minket arra , hogy február első hétvégéjén elzarándokoljunk az Augusztin tanyára , s néhány napot töltsünk ott. A kirándulást precíz előkészítő-munka előzte meg, e nélkül felelőtlenség lenne ekkora útnak vágni. Jónéhány nappal előre megszerveztük az élelmiszerellátást. Kiszámoltuk, miből mennyi kell; elterveztük, hogy ezeket hogyan szerezzük be.
