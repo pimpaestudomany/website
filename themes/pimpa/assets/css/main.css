@@ -661,3 +661,30 @@ img {
   width: 100%;
   margin: 1rem 0 0;
 }
+
+@font-face {
+  font-family: 'ArialGrain';
+  src: url('/fonts/ArialGrain.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NewsreaderGrain';
+  src: url('/fonts/NewsreaderGrain.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.old-arial {
+    font-family: 'ArialGrain', sans-serif;
+    font-size: 24;
+}
+
+.old-times {
+    font-family: 'NewsreaderGrain', sans-serif;
+    font-size: 24;
+}
+

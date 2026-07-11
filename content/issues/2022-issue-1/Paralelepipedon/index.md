@@ -10,20 +10,35 @@ weight = 90
 
 _A méltán közkedvelt Pimpa és Tudomány mellett jóval kevesebben ismerik a Paralelepipedon Zrt-t. Ám míg a Pimpa és Tudomány sikere és népszerűsége megkérdőjelezhetetlen, a Paralelepipedon megítélése sokkal vegyesebb. Kezdettől fogva szeretett a háttérben maradni, és az sem javított a megítélésén, hogy fennállása során egyszer sem tett közzé részvényesi beszámolót, nem osztott meg semmit a terveiből, eredményeiből, nem hívta fel a részvényesek figyelmét az esetleges kockázatokra. A Pimpa és Tudomány jubileumi számában végre közzétesszük a kisrészvényesi nyomásra elkészült független elemzői beszámolót._
 
-![Paralelepipedon](pp.png)
-{.align-right}
+{{< box-right >}}
+**Paralelepipedon:**
+
+A paralelepipedon olyan hat lap által határolt térbeli geometriai alakzat, amelynek minden oldallapja paralelogramma. A név a görög παραλληλ-επίπεδον (párhuzamos síkok) kifejezésből ered. _(forrás: Wikipédia)_
+
+![parelelepipedon](pp.png)
+{{< /box-right >}}
 
 A Paralelepipedon Zrt. (akkor még Rt.) 1990-ben alakult, a részvénykibocsátás 1990. március 1-jén történt. Hogy időben elhelyezhessük mindezt: Horn Gyula a Németh-kormány külügyminisztereként Moszkvában tárgyal Eduard Sevardnadzéval a szovjet csapatok kivonásáról, az első szabad parlamenti választás pedig csak pár héttel később, március 25-én történt. Történelmi idők voltak, minden hétre jutott legalább egy, korábban elképzelhetetlennek tartott esemény, a szocialista világrendszer pár hónap alatt darabjaira hullott. Ezen történelmi események farvizén, mintegy árnyékában próbáltak meg a Paralelepipedon magukat rendkívül dörzsöltnek gondoló alapítói  gyorsan és nagyot akasztani.
 
 Mentségükre felhozható, hogy a kor számos más szerencselovagjával ellentétben nem a becsődölt állami vállalatok hulláin sakálkodva próbáltak instant vagyont harácsolni, hanem a tőkefelhalmozás sokkal rögösebb, bár tulajdonképpen eredeti útját választották: vállalatot alapítottak, és megpróbálták saját terméküket a szabad piacon tisztes haszonnal értékesíteni. Ám ha közelebbről megnézzük a történetüket, nyilvánvalóvá válik, hogy mindössze a legsötétebb manchesteri kapitalizmus (vö. Friedrich Engels: A munkásosztály helyzete Angliában) receptjét próbálták meg a rendszerváltás környéki zavaros időkben alkalmazni, mint azóta kiderült: sikertelenül.
 
-![A munkásosztály helyzete Angliában](engels.png)
-{.align-right}
+{{< box-right >}}
+**A munkásosztály helyzete Angliában:**
+
+Friedrich Engels 1842–1844 közötti angliai tartózkodása alatt szerzett tapasztalatai alapján írta meg a korabeli munkásosztály sanyarú helyzetét bemutató híres könyvét. Lenin méltatása szerint: _„Ez a könyv borzalmas vádirat volt a kapitalizmus és a burzsoázia ellen. 
+(…) És valóban, sem 1845 előtt, sem később nem jelent meg a munkásosztály nyomorának egyetlen ilyen élethű és pontos ábrázolása sem.”_
+{{< /box-right >}}
 
 Az ötlet megvolt, de mi volt a termék? Egy addig mindössze 4 számot megért, mérsékelt sikerű középiskolai lap, a _Daily News_ a veszprémi Lovassy László Gimnázium II.A matek tagozatos osztályától. A szerzőgárda néhány lelkes gimnazista, akik kíváncsian próbálgatták az akkori kezdetleges asztali kiadványszerkesztő megoldásokat, nyitottak voltak a világra, humorosak voltak, és szinte minden érdekelte őket az irodalomtól a bakonyi túrázásig. Mai fogalmaink szerint a lap egy ígéretes startup volt, de a dúsgazdag, pénzt helikopterről szóró kockázati befektető és a kaliforniai álom helyett nekik csak a Paralelepipedon Rt. jutott. A konstrukció szerint a részvénytársaság átvette a kiadói feladatokat, intézte a terjesztést, szervezte a hirdetőket, és nagy újításként az újságot immár pénzért adta, míg a szerzők újságírói igazolványt kaptak, ![P&T újságírói igazolvány](PTigazolvany.jpg) és tiszteletdíjat kaphattak a cikkeikért, illetve kezdetleges előfizetői konstrukciót is kínáltak az olvasóknak. Röviden: piaci alapokra próbálták helyezni a lap működését.
 
+{{< box-right >}}
+Az eredeti Daily News mind a négy száma klasszikus, fél asztalnyi IBM PC XT-n készült NewsMaster 1.0 programmal, a nyomtatás pedig Epson FX-100+ mátrixnyomtatóval történt. Ez már tudott sima A4-es lapra is nyomtatni, nem csak perforált szélű leporelló papírra. Minden példány laponkénti egyedi nyomtatással készült, ráadásul az ékezeteket a NewsMaster nem kezelte, így ezeket kézzel-tollal kellett utólag pótolni. És hogy emlékszik a hálátlan utókor az akkor csodaszámba menő NewsMasterre?
+
+_„NewsMaster, from Unison World, is a primitive low-cost desktop publishing program aimed at home users and low end PCs. It supports both dot-matrix and laser printers.”
+([forrás](https://winworldpc.com/product/newsmaster/15))_
+
 ![Daily News](daily.png)
-{.align-right}
+{{< /box-right >}}
 
 Az induló tőkét elsődleges zártkörű részvénykibocsátással kívánták bevonni a piacról, az operatív működést pedig a folyamatos lapértékesítésekből finanszírozni. A tőzsdei bevezetés ötlete – szerencsére – nem merülhetett föl, mivel a Budapesti Értéktőzsde csak 1990 júliusában nyílt meg újra. Az egész sokkal inkább hasonlított egy analóg kézműves Kickstarter-kampányra, mintsem egy professzionális részvénykibocsátásra.
 
