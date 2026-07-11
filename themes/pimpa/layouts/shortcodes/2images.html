@@ -1,0 +1,37 @@
+<div class="gallery-row">
+  <div class="gallery-col">
+    <img src="{{ .Get "src1" }}" alt="{{ .Get "alt1" }}" />
+    {{ with .Get "caption1" }}<p class="gallery-caption">{{ . }}</p>{{ end }}
+  </div>
+  <div class="gallery-col">
+    <img src="{{ .Get "src2" }}" alt="{{ .Get "alt2" }}" />
+    {{ with .Get "caption2" }}<p class="gallery-caption">{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<p></p>
+
+<style>
+  .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Adjust spacing between images */
+    justify-content: center;
+  }
+  .gallery-col {
+    flex: 1;
+    min-width: 300px; /* Forces images to stack vertically on small mobile screens */
+  }
+  .gallery-col img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .gallery-caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+  }
+</style>
+
