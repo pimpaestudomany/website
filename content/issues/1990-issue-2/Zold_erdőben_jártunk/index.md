@@ -1,5 +1,5 @@
 +++
-title = 'Zöld erdőben jártunk...'
+title = '{{< old-times >}}Zöld erdőben jártunk...{{< /old-times >}}'
 type = 'articles'
 date = 1990-02-19
 author = '<pati>'

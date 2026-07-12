@@ -14,7 +14,7 @@
 		
 			<atom:link href="https://pimpaestudomany.hu/issues/1990-issue-2/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Zöld erdőben jártunk...</title>
+				<title>{{&lt; old-times &gt;}}Zöld erdőben jártunk...{{&lt; /old-times &gt;}}</title>
 				<link>https://pimpaestudomany.hu/issues/1990-issue-2/zold_erd%C5%91ben_j%C3%A1rtunk/</link>
 				<pubDate>Mon, 19 Feb 1990 00:00:00 +0000</pubDate>
 				<guid>https://pimpaestudomany.hu/issues/1990-issue-2/zold_erd%C5%91ben_j%C3%A1rtunk/</guid>
