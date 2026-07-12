@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Miért éppen Pimpa és Tudomány? · Pimpa és Tudomány</title>
+  <meta name="description" content="Kulturális, tudományos és közéleti magazin">
+  <link rel="icon" href="https://pimpaestudomany.hu/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/main.min.5e599cdae1e893b5f19778948fed2f127e17391cbe38c3dd441a5b54726e91eb.css" integrity="sha256-Xlmc2uHok7Xxl3iUj&#43;0vEn4XORy&#43;OMPdRBpbVHJukes=">
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header">
+  <div class="container site-header-inner">
+    <a class="masthead" href="/">
+      <span class="masthead-logo-wrap">
+        <div class="crest-sentinel" aria-hidden="true"></div>
+        <span class="masthead-logo-slot">
+          <img class="masthead-logo" src="https://pimpaestudomany.hu/cimlap.svg" alt="Pimpa és Tudomány">
+        </span>
+        <img class="masthead-crest" src="https://pimpaestudomany.hu/cimer.svg" alt="">
+      </span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" hidden>
+        
+          
+            <li class="nav-item"><a href="/">Címlap</a></li>
+          
+        
+          
+            <li class="nav-item has-submenu">
+              <div class="nav-item-row">
+                <button class="submenu-toggle" aria-expanded="false"></button>
+                <a href="/issues/">Kiadások</a>
+              </div>
+              
+                
+                
+                  <ul class="submenu" hidden>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/2022-issue-1/">III. évfolyam, 1-7,2 szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1990-issue-2/">I. évfolyam, 2. szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1990-issue-1/">I. évfolyam, 1. szám</a></li>
+                    
+                  </ul>
+                
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="header-sentinel" aria-hidden="true"></div>
+
+<script>
+(function () {
+  var navToggle = document.getElementById('nav-toggle');
+  var navMenu = document.getElementById('nav-menu');
+
+  navToggle.addEventListener('click', function () {
+    var open = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', String(!open));
+    navMenu.hidden = open;
+    if (!open && !navMenu.style.width) {
+      navMenu.style.width = navMenu.offsetWidth + 'px';
+    }
+  });
+
+  document.querySelectorAll('.submenu-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.closest('.has-submenu').querySelector('.submenu').hidden = open;
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!document.getElementById('main-nav').contains(e.target)) {
+      navToggle.setAttribute('aria-expanded', 'false');
+      navMenu.hidden = true;
+    }
+  });
+
+  var header = document.querySelector('.site-header');
+  var sentinel = document.querySelector('.header-sentinel');
+  if (header && sentinel && 'IntersectionObserver' in window) {
+    var headerObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        header.classList.toggle('header-compact', !entry.isIntersecting);
+      });
+    });
+    headerObserver.observe(sentinel);
+  }
+
+  var logoWrap = document.querySelector('.masthead-logo-wrap');
+  var crestSentinel = document.querySelector('.crest-sentinel');
+  if (logoWrap && crestSentinel && 'IntersectionObserver' in window) {
+    var logoObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        logoWrap.classList.toggle('logo-pinned', !entry.isIntersecting);
+      });
+    });
+    logoObserver.observe(crestSentinel);
+  }
+})();
+</script>
+
+    <main class="site-main">
+      
+<div class="container">
+  <article class="article">
+    <header class="article-header">
+      <p class="article-eyebrow"><a href="https://pimpaestudomany.hu/issues/2022-issue-1/">&larr; III. évfolyam, 1-7,2 szám</a></p>
+      <p class="kicker">Névadásunk titkos története</p>
+      <h1 class="page-title">Miért éppen <em>Pimpa és Tudomány</em>?</h1>
+      <p class="article-meta">
+        Szekendy Alajos
+        &middot; <time datetime="2022-09-10">10 September 2022</time>
+      </p>
+    </header>
+    <div class="article-content"><p class="align-right"><img src="oklevel.jpg" alt="oklevél"></p>
+<p>Újságunk neve 1990-ben nyilvános pályázatot követően született meg. A végleges név kitalálása csapatmunka volt, melyben az itt látható oklevél tanúsága szerint jómagam is részt vettem. A történet háttere azonban sokkal érdekesebb, mint elsőre hinnénk.</p>
+<p>Az „és Tudomány” egyértelmű utalás az Élet és Tudományra, amelyet még Szent-Györgyi Albert alapított 1946-ban, és a legnépszerűbb hazai tudományos ismeretterjesztő lap volt akkoriban. Érdekesség, hogy jelenlegi főszerkesztője, Gózon Ákos szintén lovassys diák volt.</p>
+<p>„Pimpa” egy olasz rajzfilmsorozat, ami a ‘80-as évek közepén esti meseként ment a TV-ben. A címadó főszereplő egy hosszú fülű, lógó nyelvű piros pöttyös kutya, aki gazdájával, a bölcs Armandóval lakik egy házban. Pimpa nagyon kíváncsi, különféle kalandokba keveredik, sokszor segít bajba jutott állatokon, szomjazó növényeken vagy akár viharba került hajón, gyakran utazik különféle járműveken, mint pl. repülő vagy bicikli, amin tekerve a pöttyei kissé lemaradva követik csak őt.</p>
+<p>A figurát 1975-ben találta ki egy neves olasz karikaturista, és a legnagyobb olasz napilap, a Corriere della Sera gyerekeknek szóló mellékletében jelent meg comic strip-ként, vagyis rövid, pár képből álló képregényként. Hamar sikeres lett, és már 1982-ben rajzfilmsorozat készült belőle. A 26 részből néhány fellelhető a YouTube-on, de nem öregedett szépen. Pimpa magyar hangja Paudits Béla volt, ami évtizedes félreértést okozott, mert Pimpa valójában lány.</p>
+<p>Később további három sorozatban folytatták a kalandokat, de ezek már inkább egyszerű flash animációnak tűnnek. Ezeket is leadta a TV idehaza, de már mindennemű visszhang nélkül. Ugyan Pimpa végre női hangot kapott, de a történetek még egyszerűbbek és kiszámíthatóbbak lettek, így nosztalgiázni mindenképpen az első sorozat ajánlott.</p>
+<p>A figura a mai napig népszerű Olaszországban, rendszeresen megjelenik lapokban, DVD-n, kiadtak róla bélyeget (ld. a 4. oldalon), és remek weboldala van (<a href="https://www.pimpa.it">www.pimpa.it</a>), ahonnét a Facebook és Instagram oldalát is elérhetjük. Minderről mi semmit nem tudtunk 1990-ben, a nyugati képregények közül szinte kizárólag a francia Vaillant magazin történetei jelentek meg nálunk (pl. Pif és Herkules, Rahan, Dr. Justice) azon egyszerű okból, hogy a Vaillant-t a Francia Kommunista Párt ifjúsági lapjaként tartották számon. Rendszeresen olvastam a Pif és Herkulest a Kockásban, de egyszer sem sikerült rejtett marxizmus-leninizmust fülön csípni, ahogy a Pimpában sem volt ideológiai töltet. Mégis a forrás baloldalisága miatt a Vaillant képregényei a fiatalság számára megfelelőnek találtattak, míg a jobboldali-liberális Corriere della Sera gyerekmellékletének erre esélye sem volt.</p>
+<p>De honnan jött az ötlet az újság nevére a kétségkívül frappáns hangzáson túl? Ehhez vissza kell mennünk egészen a csopaki általános iskola néptánccsoportjának 1987-es finnországi fellépéséig. Galajda Péter barátunk is tagja volt a turnénak, és a sok színes élmény egyike volt, miszerint a helyi szlengben a ‘pimpa’ női nemi szervet jelent. Kerestem ehhez megerősítést, de mindenhol csak az angol ‘pimp up’ — felpimpel, tuningol — finn megfelelőjeként jelölték. Végül hosszas kutatás után meglett a megoldás (<a href="https://sv.wiktionary.org/wiki/pimpa)">https://sv.wiktionary.org/wiki/pimpa)</a>:  pimpa: (vardagligt, finlandssvenska) neutral benämning på det kvinnliga könsorganet A fordítást bekapcsolva: „semleges kifejezés a női nemi szervekre”. A lényeg a „finlandssvenska”, ami a Finnországban beszélt svéd nyelvet jelenti, tehát a szó — mint kiderült — svéd.</p>
+<p>Ez a duplacsavar a névben: a vicces piros pöttyös kutya és a tudomány abszurd összekapcsolásán túl van számunkra egy plusz jelentésrétege, és még észrevétlenül kimondtunk egy trágár szót is, mint a a klasszikus viccben annak idején Arisztid: „Milyen édesség van a tálcán? Tán nem kuglóf-asz ott?”</p>
+</div>
+  </article>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img class="lightbox-img" id="lightbox-img" alt="">
+</div>
+
+<script>
+(function () {
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightbox-img');
+
+  document.querySelectorAll('.article-image, .article-content img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      lightboxImg.src = img.currentSrc || img.src;
+      lightboxImg.alt = img.alt || '';
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container site-footer-inner">
+    <div class="footer-about">
+      <div class="footer-text">
+        <p>A Lovassy László Gimnázium 1992-ben érettségizett matematika tagozatos osztályának tudományos, kuturális és közéleti magazinja. Szerkesztők: Golden Dániel és Péter László. Email címünk: <a href="mailto:info@pimpaestudomany.hu">info@pimpaestudomany.hu</a></p>
+        <p>Kiadja a Paralelepipedon Zrt. Megjelenik nagyon ritkán, kb. 25 példányban. Még mindig nem terjeszti a Magyar Posta. Kéziratokat Google drive-on tárolunk, de néha eltűnnek. A lapot mindenki saját felelősségére olvashatja!</p>
+        <p>A címlapon jelzett fizetőeszközökön kívül elfogadható még: 0,0001; 1 üveg EKF2023 sör; 1 vödör kumisz; 2m³ földgáz; 2 talicska lengyel szén. Az online változat ingyenes, de persze nem olyan jó. Ez már csak így van.</p>
+    <p class="copyright">&copy; 2026 Pimpa és Tudomány</p>
+      </div>
+      <img class="footer-image" src="/Pimpa_stamp.jpg" alt="Pimpa pecsét">
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>

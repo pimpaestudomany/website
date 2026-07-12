@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>I. évfolyam, 1. szám on Pimpa és Tudomány</title>
+		<link>https://pimpaestudomany.hu/issues/1990-issue-1/</link>
+		<description>Recent content in I. évfolyam, 1. szám on Pimpa és Tudomány</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 24 Jan 1990 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://pimpaestudomany.hu/issues/1990-issue-1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>{{&lt; old-times &gt;}}Tisztelt Olvasók!{{&lt; /old-times &gt;}}</title>
+				<link>https://pimpaestudomany.hu/issues/1990-issue-1/tisztelt_olvas%C3%B3k/</link>
+				<pubDate>Wed, 24 Jan 1990 00:00:00 +0000</pubDate>
+				<guid>https://pimpaestudomany.hu/issues/1990-issue-1/tisztelt_olvas%C3%B3k/</guid>
+				<description>&lt;p class=&#34;align-right&#34;&gt;&lt;img src=&#34;cover.png&#34; alt=&#34;összehajtott újság&#34;&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;old-times&#34;&gt;&#xA;    &lt;p&gt;Szeretettel köszöntjük minden kedves leendő előfizetőnket, világrengető lapunk első számának megjelenése alkalmából. Lapunk minden Lovassyshoz szól, különös tekintettel a II. a osztály megkülönböztetett tisztelettel köszöntött tagjaihoz.&lt;/p&gt;&#xA;&lt;p&gt;Lapunk figyelemmel kivánja kisérni a kül- és belpolitikai helyzet alakulását. Helyet kivánunk biztosítani az iskolai életet érintő bárminemű pletykának vagy szatirikus jellegű irásnak. Vállaljuk közérdekű bejelentések és hírdetések publikálását. Örömmel vesszük újságíró-önjelöltek, szerkesztők, gépírónők, takarító személyzet és tőkeerős szponzorok jelentkezését.&lt;/p&gt;&#xA;&lt;p&gt;Ezúton kivánunk köszönetet mondani az &lt;strong&gt;International Business Machines&lt;/strong&gt; kutató- és fejlesztőmérnökeinek áldozatos munkájukért, amellyel elősegítették újságunk megjelenését.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

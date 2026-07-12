@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kengyelfutók · Pimpa és Tudomány</title>
+  <meta name="description" content="Kulturális, tudományos és közéleti magazin">
+  <link rel="icon" href="https://pimpaestudomany.hu/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/main.min.5e599cdae1e893b5f19778948fed2f127e17391cbe38c3dd441a5b54726e91eb.css" integrity="sha256-Xlmc2uHok7Xxl3iUj&#43;0vEn4XORy&#43;OMPdRBpbVHJukes=">
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header">
+  <div class="container site-header-inner">
+    <a class="masthead" href="/">
+      <span class="masthead-logo-wrap">
+        <div class="crest-sentinel" aria-hidden="true"></div>
+        <span class="masthead-logo-slot">
+          <img class="masthead-logo" src="https://pimpaestudomany.hu/cimlap.svg" alt="Pimpa és Tudomány">
+        </span>
+        <img class="masthead-crest" src="https://pimpaestudomany.hu/cimer.svg" alt="">
+      </span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" hidden>
+        
+          
+            <li class="nav-item"><a href="/">Címlap</a></li>
+          
+        
+          
+            <li class="nav-item has-submenu">
+              <div class="nav-item-row">
+                <button class="submenu-toggle" aria-expanded="false"></button>
+                <a href="/issues/">Kiadások</a>
+              </div>
+              
+                
+                
+                  <ul class="submenu" hidden>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/2022-issue-1/">III. évfolyam, 1-7,2 szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1990-issue-2/">I. évfolyam, 2. szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1990-issue-1/">I. évfolyam, 1. szám</a></li>
+                    
+                  </ul>
+                
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="header-sentinel" aria-hidden="true"></div>
+
+<script>
+(function () {
+  var navToggle = document.getElementById('nav-toggle');
+  var navMenu = document.getElementById('nav-menu');
+
+  navToggle.addEventListener('click', function () {
+    var open = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', String(!open));
+    navMenu.hidden = open;
+    if (!open && !navMenu.style.width) {
+      navMenu.style.width = navMenu.offsetWidth + 'px';
+    }
+  });
+
+  document.querySelectorAll('.submenu-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.closest('.has-submenu').querySelector('.submenu').hidden = open;
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!document.getElementById('main-nav').contains(e.target)) {
+      navToggle.setAttribute('aria-expanded', 'false');
+      navMenu.hidden = true;
+    }
+  });
+
+  var header = document.querySelector('.site-header');
+  var sentinel = document.querySelector('.header-sentinel');
+  if (header && sentinel && 'IntersectionObserver' in window) {
+    var headerObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        header.classList.toggle('header-compact', !entry.isIntersecting);
+      });
+    });
+    headerObserver.observe(sentinel);
+  }
+
+  var logoWrap = document.querySelector('.masthead-logo-wrap');
+  var crestSentinel = document.querySelector('.crest-sentinel');
+  if (logoWrap && crestSentinel && 'IntersectionObserver' in window) {
+    var logoObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        logoWrap.classList.toggle('logo-pinned', !entry.isIntersecting);
+      });
+    });
+    logoObserver.observe(crestSentinel);
+  }
+})();
+</script>
+
+    <main class="site-main">
+      
+<div class="container">
+  <article class="article">
+    <header class="article-header">
+      <p class="article-eyebrow"><a href="https://pimpaestudomany.hu/issues/2022-issue-1/">&larr; III. évfolyam, 1-7,2 szám</a></p>
+      <p class="kicker">Így sportolunk mi II.</p>
+      <h1 class="page-title">Kengyelfutók</h1>
+      <p class="article-meta">
+        Damján Dóra beszélgetése Molnár Péterrel, Pulai Andrással és Wagner Endrével
+        &middot; <time datetime="2022-09-10">10 September 2022</time>
+      </p>
+    </header>
+    <div class="article-content"><p><img src="sportII.png" alt="Pulai András (+1), Wagner Endre, Molnár Péter, Damján Dóra"></p>
+<p><strong>Már gimis korunkban tudtuk, hogy Petinek szenvedélye a tájfutás, de ti, srácok, hogyan csöppentetek bele?</strong></p>
+<p><strong>PA</strong> A fiam elkezdett tájfutni. Amikor egy téli estén érte mentem, a tornateremben voltak. Az edző a kezembe nyomott egy térképet – igen, a tornateremről – és azt mondta, hogy amikor leülnek a gyerekek, próbáljam ki. Én meg kipróbáltam&hellip; Tavasszal pedig, amikor harminc éves lett a klub, csináltak egy háziversenyt Újpesten, a Farkaserdőben, amin szintén részt vettem. Innen jött az ötlet, hogy csábítsuk el Endrét Petivel egy igazi versenyre, meg akkor ott hátha koccinthatunk is.</p>
+<p><strong>Mikor és hol volt a verseny?</strong></p>
+<p class="align-right"><img src="terkep1.png" alt="térkép"></p>
+<p><strong>WE</strong> 59. Tavaszi Spartacus Kupa, 2022. március 12–14. Pákozd, Ingókövek.</p>
+<p><strong>Ki vehet részt egy ilyen versenyen?</strong></p>
+<p><strong>MP</strong> Nyílt, így bárki részt vehet rajta. Vannak nehezebb és könnyebb pályák is. A kezdő pályák lényege, hogy kedvet csináljanak azoknak, akik először próbálják ki. Itt általában utakon kell futni, ami a hétköznapi emberek számára is követhető.</p>
+<p><strong>Hogyan zajlik egy ilyen verseny?</strong></p>
+<p><strong>MP</strong> A versenyzők bizonyos időközönként indulnak ugyanazon a pályán, hogy önállóan kelljen tájékozódniuk. A rajt pillanatában megkapják a térképet, amit már a saját versenyidejükből kell értelmezniük, és meg kell keresniük sorrendben a pontokat. Pontnak valamilyen objektumon kell lennie: ez lehet gödör, szikla, tisztás, ösvény. A pontot a terepen egy háromoldalú, 30x30 cm-es, átlósan osztott narancssárga-fehér bója jelöli.</p>
+<p><strong>WE</strong> A versenyzőknek a rajtkor kell értelmezniük a pályát, előre nem mondták el a térkép jelzéseit.</p>
+<p><strong>MP</strong> Én próbáltam nektek elmondani, mi mit jelent, pl. vadászles, szaggatott útvonal.</p>
+<p><strong>PA</strong> Én figyeltem is! A 6-os pont egy szikla, min. 1 méterre kiemelkedik. Na, ez nem igy volt, valaki betemette, így 10 percig nem találtam meg.</p>
+<p class="align-right"><img src="terkep.jpg" alt="térkép"></p>
+<p><strong>WE</strong> Az 5-ös pontot nem találtam meg, mert letértem az útról. Az utolsó pont a szántóföldön volt, amit erősen kerestünk Pulussal, rajtunk kívül még két versenyző ott keresgette, mi meg sikeresen eltérítettük őket.</p>
+<p><strong>MP</strong> Az eredményeket utólag böngészve láttuk, hogy Pulus a 3-as pontnál megverte a győztest, a 6-osnál viszont 8 percet veszített. A versenyek után minden versenyző összes részideje az egyes ellenőrző pontokon fel szokott kerülni az internetre, így alaposan ki lehet elemezni, ki hol rontott vagy remekelt. Még ennél is plasztikusabb képet mutat, amikor a térképet és a pályákat töltik fel egy grafikus felületre, ahol mindenki berajzolhatja az útvonalát, vagy a profibbak a futóórájukból feltöltik a GPS tracket. A feltöltött útvonalak alapján pedig lejátszható egy animáció, amiben szimulálódik, hogy hogyan alakult volna a verseny, ha egyszerre rajtol mindenki.</p>
+<p><strong>Az ellenőrző ponton mit kell tenni?</strong></p>
+<p class="align-right"><img src="pont.jpg" alt="térkép"></p>
+<p><strong>MP</strong> Az ellenőrző pont érintése hagyományos módon a magunkkal vitt papír alapú ellenőrző kartonra történő lyukasztással, vagy a napjainkban már nagyon elterjedt elektronikus pontérintő rendszer alkalmazásakor az ujjunkra húzott dugókával történik.</p>
+<p><strong>WE</strong> Chip. Petinek a bőre alatt van.</p>
+<p class="align-right"><img src="felszerel%C3%A9s.png" alt="tájfutó felszerelés"></p>
+<p><strong>MP</strong> Az én dugókám huszonkét éves, a rendszer hazai bevezetésekor vettem, azóta is hibátlanul működik. Ilyet ma már nem is lehet kapni. Jelenleg a negyedik generációjuknál járnak ezek a chipek, a legújabbak már érintés nélküli technológiával működnek: nem kell megállni a ponton, és bedugni a dobozba, csak egy fél méteres távolságon belül elhaladni mellette.</p>
+<p><strong>Milyen helyezést értetek el?</strong></p>
+<p><strong>WE</strong> 6. lettem 27:05-ös idővel.</p>
+<p><strong>PA</strong> Én a 28. helyezést értem el 39:44-es idővel.</p>
+<p><strong>MP</strong> Azt azért tudni kell, hogy megverték pl. Gyurina Szabolcsot is, aki 31 évvel ezelőtt az első 14 éven aluliak számára rendezett magyar bajnokságot nyerte. Én egy nehezebb pályán 4. lettem 26:46-os idővel, ami a magamtól elvárt sebességen belüli.</p>
+<p><strong>Milyen volt a sör?</strong></p>
+<p><img src="map-sw.png" alt="térkép szoftver"></p>
+<p><strong>PA</strong> Ezen a versenyen rumoztunk, mert hideg volt. A gyerekek előtt azért ezt titkoltuk.</p>
+<p><strong>MP</strong> A tájfutók nem egy prűd társaság, és mivel a versenyek egyben szociális események is, eléggé megszokott az alkoholfogyasztás, a többnapos versenyeknek kimondottan fesztivál hangulata van. A legnagyobb hazai verseny a Hungária Kupa, ami ötnapos, ez akkor szokott a legjobban sikerülni hangulat szempontjából, amikor egy világvégi helyen 1000-1500 ember együtt sátrazik, esténként meg beül a sörsátorba. Legutóbb még egy országos bajnokságon is majdnem botrány tört ki, amikor délelőtt 11-re elfogyott a sör a büfében…</p>
+<p>Ez egyébként egy több évtizedes polémia, hogy hogyan lehet a legjobb sportteljesítményt nyújtani az esti piálás után. Fiatalabb korunkban rengeteget kísérleteztünk a haverokkal, de nem sikerült egyértelmű mintát felfedeznünk. A sör lelassítja másnap az embert, a bortól nekem általában fáj a fejem, úgyhogy maradnak a tömények. Az viszont eléggé kétélű fegyver – vagy szárnyal az ember másnap, vagy fel se tud kelni. Tizenöt évvel ezelőtt egy mátrai versenyen tanultuk meg a tuti receptet a helyi kocsmárostól: parádi büdösvizet kell inni a végén, és másnap fitten ébredünk.</p>
+<p><strong>Ott voltak a gyerekek is? Van gyermekmegőrző?</strong></p>
+<p><strong>MP</strong> Igen, a futóversenyek mellett mindig van. Nekem is fut a feleségem, van, hogy egyszerre vagyunk versenyben, olyankor a gyerekek is ott vannak. Nagy segítség ez a szülőknek.</p>
+<p><img src="map-sw2.png" alt="térkép szoftver"></p>
+<p><strong>Ez egyéni verseny volt. Van csapatverseny is?</strong></p>
+<p><strong>MP</strong> Igen, van, és nagyon érdekes. A csapat tagjai egyszerre rajtolnak. A csapat eredményét az utolsó beérkező tag érkezési ideje határozza meg. Van egy pár pont, amit minden csapattagnak kötelező érintenie, de a pontok nagy részét ők osztják el egymás között a saját versenyidejük terhére. Ez egy nagy taktikai csata, és nagy előnye, hogy egy gyengébb csapattaggal is optimalizálni lehet a csapat összteljesítményét. Mi például úgy szoktunk elrajtolni, hogy a csapattársak vezetnek az első pontig, én meg futás közben leosztom a pontokat, így alig vesztünk időt.</p>
+<p><strong>Szerintetek van valami összefüggés abban, hogy a Bolyai-versenyen a tájfutók ilyen jól szerepelnek?</strong></p>
+<p><strong>MP</strong> Valamennyi biztos van, a született intelligencia és a tájékozódási képesség között szerintem van összefüggés. Általánosságban a tájfutók körében felülreprezentáltak a magasabb végzettségűek. De fordított hatása is van ennek a sportnak, mert az önállóságot, a döntéshozatali képességet, a kreativitást és a stresszkezelést is fejleszti, úgyhogy a tájfutók szerintem az élet minden területén talpraesettebbek.</p>
+<p><strong>WE</strong> Nekem a vitorlázáshoz hasonlított a legjobban, ott is egyszerre van jelen a sportteljesítmény és a jó hangulat.</p>
+<p><strong>Ti szoktatok kirándulni menni? Milyen gyakran?</strong></p>
+<p><strong>MP</strong> Nem gyakran, így négy gyerekkel nem annyira könnyű, főleg hogy a kicsik pár száz méter után felkéredzkednek a nyakunkba. Néha elmegyünk itt Veszprém környékén valamelyik kilátóba, ezek most gyorsabban szaporodnak, mint ahogy mi le tudjuk járni őket.</p>
+<p><strong>WE</strong> Mi havonta szoktunk menni, de a gyerekek már egyre ritkábban jönnek velünk.</p>
+<p><strong>PA</strong> Én is havonta megyek, már megvan 1000 km a Kéktúrából (1180 a teljes).</p>
+<p><strong>MP</strong> Wow!</p>
+<p><strong>Tervezitek a következő versenyt?</strong></p>
+<p><strong>WE</strong> Én szerettem volna menni, de Pulus lemondta.</p>
+<p><strong>MP</strong> Én folyamatosan megyek. Ha gondoljátok, nézek majd egy könnyebb pályát.</p>
+<p><em>Még órákon át tudtam volna hallgatni a fiúk élménybeszámolóját. Már a beszélgetés elején elhatároztam, hogy ezt a sportot nagyon szeretném kipróbálni. Ami nekem vonzóvá tette, az a jó társaság, a mozgás, a kreativitás, a versenyzés, az utazás; szóval ez egy nagyon klassz életforma!</em></p>
+</div>
+  </article>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img class="lightbox-img" id="lightbox-img" alt="">
+</div>
+
+<script>
+(function () {
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightbox-img');
+
+  document.querySelectorAll('.article-image, .article-content img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      lightboxImg.src = img.currentSrc || img.src;
+      lightboxImg.alt = img.alt || '';
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container site-footer-inner">
+    <div class="footer-about">
+      <div class="footer-text">
+        <p>A Lovassy László Gimnázium 1992-ben érettségizett matematika tagozatos osztályának tudományos, kuturális és közéleti magazinja. Szerkesztők: Golden Dániel és Péter László. Email címünk: <a href="mailto:info@pimpaestudomany.hu">info@pimpaestudomany.hu</a></p>
+        <p>Kiadja a Paralelepipedon Zrt. Megjelenik nagyon ritkán, kb. 25 példányban. Még mindig nem terjeszti a Magyar Posta. Kéziratokat Google drive-on tárolunk, de néha eltűnnek. A lapot mindenki saját felelősségére olvashatja!</p>
+        <p>A címlapon jelzett fizetőeszközökön kívül elfogadható még: 0,0001; 1 üveg EKF2023 sör; 1 vödör kumisz; 2m³ földgáz; 2 talicska lengyel szén. Az online változat ingyenes, de persze nem olyan jó. Ez már csak így van.</p>
+    <p class="copyright">&copy; 2026 Pimpa és Tudomány</p>
+      </div>
+      <img class="footer-image" src="/Pimpa_stamp.jpg" alt="Pimpa pecsét">
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>
