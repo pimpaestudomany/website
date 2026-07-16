@@ -81,7 +81,7 @@ _Kevesen tudják, hogy létezik egy matematika csapatverseny, amelyet Bolyai Já
 
 **VKA** Nekem mindig másik csapatom van. Az irodában szoktuk összeszervezni a kollégákból, akiket sikerül behalászni. Kivéve a tavalyi évet, amikor családi csapattal indultunk, Dórival együtt, mert ő is a családhoz tartozik!
 
-**P&T A honlap szerint 2016-ban volt a verseny először felnőtteknek is meghirdetve.**
+**P&T A honlap szerint 2016-ban volt a verseny először [felnőtteknek is meghirdetve](https://web.archive.org/web/20220808093739/https://www.bolyaiverseny.hu/felnott/).**
 
 **VKA** Mi már ott az elsőn részt is vettünk. Azért kezdtük el, mert a fiam, Marci járt a Bolyai-versenyekre, és hogy motiváló legyen neki, hogy nemcsak ő versenyzik, hanem én is megszervezem a felnőtteknek.
 
@@ -235,7 +235,7 @@ Mondjuk kapunk ajándékokat, például tollat meg USB kulcsokat.
 
 **WE** Szerintem idén első öt, de inkább dobogó.
 
-**PA** De többen is beszállhatnának még.
+**PA** De többen is [beszállhatnának még](https://web.archive.org/web/20220808093739/https://www.bolyaiverseny.hu/felnott/).
 
 **VKA** Nekem nagy motiváció ahhoz, hogy induljunk, hogy ti vagytok egy másik csapat az osztályból. Talán az osztálytalálkozón másokat is meggyőzhetünk!**
 

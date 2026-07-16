@@ -15,7 +15,7 @@ Ez volt a feladat:
 
 ![matematika feladat](matfeladat.jpg)
 
-Az I. egyenlet megoldásai a 9, illetve az 1/81, ezek közül csak a 9 pozitív egész. Ez kettes számrendszerben 1001, amire a megadott megfeleltetést alkalmazva: — ∪ ∪ —, ami egy korijambus. Mindenki tudja, hogy ilyet Zrínyi Miklós, a költő-hadvezér írt először magyar nyelven. Az ő képe két gimnáziumi tankönyvben is megtalálható^**^: másodikos irodalom, illetve történelem, de a továbbiakban egyértelműen kiderül, hogy a történelem könyvre gondoltunk, mert az irodalom könyvben nem lehetne elegendőt visszalapozni.
+Az I. egyenlet megoldásai a 9, illetve az 1/81, ezek közül csak a 9 pozitív egész. Ez kettes számrendszerben 1001, amire a megadott megfeleltetést alkalmazva: — ∪ ∪ —, ami egy [korijambus](https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-a-pallas-nagy-lexikona-2/c-4B61/choriambus-5639/). Mindenki tudja, hogy ilyet Zrínyi Miklós, a költő-hadvezér írt először magyar nyelven. Az ő képe két gimnáziumi tankönyvben is megtalálható^**^: másodikos irodalom, illetve történelem, de a továbbiakban egyértelműen kiderül, hogy a történelem könyvre gondoltunk, mert az irodalom könyvben nem lehetne elegendőt visszalapozni.
 
 Nyitva van a könyvünk a költő-hadvezér képénél a 270. oldalon, és rögtön le is olvashatjuk születésének és halálának évét (1620–1664), ha esetleg nem tudnánk fejből. Ezek négyzetének különbsége 144 496.
 
