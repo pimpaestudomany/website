@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Számítástechnika  · Pimpa és Tudomány</title>
+  <meta name="description" content="Kulturális, tudományos és közéleti magazin">
+  <link rel="icon" href="https://pimpaestudomany.hu/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/main.min.5e599cdae1e893b5f19778948fed2f127e17391cbe38c3dd441a5b54726e91eb.css" integrity="sha256-Xlmc2uHok7Xxl3iUj&#43;0vEn4XORy&#43;OMPdRBpbVHJukes=">
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header">
+  <div class="container site-header-inner">
+    <a class="masthead" href="/">
+      <span class="masthead-logo-wrap">
+        <div class="crest-sentinel" aria-hidden="true"></div>
+        <span class="masthead-logo-slot">
+          <img class="masthead-logo" src="https://pimpaestudomany.hu/cimlap.svg" alt="Pimpa és Tudomány">
+        </span>
+        <img class="masthead-crest" src="https://pimpaestudomany.hu/cimer.svg" alt="">
+      </span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" hidden>
+        
+          
+            <li class="nav-item"><a href="/">Címlap</a></li>
+          
+        
+          
+            <li class="nav-item has-submenu">
+              <div class="nav-item-row">
+                <button class="submenu-toggle" aria-expanded="false"></button>
+                <a href="/issues/">Kiadások</a>
+              </div>
+              
+                
+                
+                  <ul class="submenu" hidden>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/2022-issue-1/">III. évfolyam, 1-7,2 szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1990-issue-3/">I. évfolyam, 3. szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1990-issue-2/">I. évfolyam, 2. szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1990-issue-1/">I. évfolyam, 1. szám</a></li>
+                    
+                  </ul>
+                
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="header-sentinel" aria-hidden="true"></div>
+
+<script>
+(function () {
+  var navToggle = document.getElementById('nav-toggle');
+  var navMenu = document.getElementById('nav-menu');
+
+  navToggle.addEventListener('click', function () {
+    var open = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', String(!open));
+    navMenu.hidden = open;
+    if (!open && !navMenu.style.width) {
+      navMenu.style.width = navMenu.offsetWidth + 'px';
+    }
+  });
+
+  document.querySelectorAll('.submenu-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.closest('.has-submenu').querySelector('.submenu').hidden = open;
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!document.getElementById('main-nav').contains(e.target)) {
+      navToggle.setAttribute('aria-expanded', 'false');
+      navMenu.hidden = true;
+    }
+  });
+
+  var header = document.querySelector('.site-header');
+  var sentinel = document.querySelector('.header-sentinel');
+  if (header && sentinel && 'IntersectionObserver' in window) {
+    var headerObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        header.classList.toggle('header-compact', !entry.isIntersecting);
+      });
+    });
+    headerObserver.observe(sentinel);
+  }
+
+  var logoWrap = document.querySelector('.masthead-logo-wrap');
+  var crestSentinel = document.querySelector('.crest-sentinel');
+  if (logoWrap && crestSentinel && 'IntersectionObserver' in window) {
+    var logoObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        logoWrap.classList.toggle('logo-pinned', !entry.isIntersecting);
+      });
+    });
+    logoObserver.observe(crestSentinel);
+  }
+})();
+</script>
+
+    <main class="site-main">
+      
+<div class="container">
+  <article class="article">
+    <header class="article-header">
+      <p class="article-eyebrow"><a href="https://pimpaestudomany.hu/issues/1990-issue-3/">&larr; I. évfolyam, 3. szám</a></p>
+      
+      <h1 class="page-title"><div class="old-times">
+    Számítástechnika
+</div></h1>
+      <p class="article-meta">
+        &lt;Szt&gt;
+        &middot; <time datetime="1990-02-19">19 February 1990</time>
+      </p>
+    </header>
+    <div class="article-content"><p class="align-right"><img src="cover.png" alt="PC clipart"></p>
+<div class="old-arial">
+    <p><strong>Rövid összehasonlító kritikai elmélkedés az amiga és a ZX81 különbségeiről és hátrányairól (az amigának)</strong></p>
+<p>Kezdjük a két gép összehasonlítását grafikai lehetőségeik bemutatásával:</p>
+<p>1. Grafika - az amigának állítólag 4096 színe van, amit mellesleg egy olyan osztálytársunk állít, aki minden kiválósága ellenére színtévesztő, tehát sajnos e kérdés megítélésében véleményét nem vehetjük figyelembe. Tapasztalat alapján bízvást állíthatjuk, hogy a legtöbb helyen számítógépezésre fekete-fehér TV-t használnak, tehát az amiga programozásának azon előnye, hogy több színt kezel, nyilvánvalóan eltörpül a ZX81 grafikájának frappáns egyszerűsége mellett, tehát a grafikai képességek összehasonlításában kétségbevonhatatlanul a ZX81 nyert.</p>
+<p>2. Hang - Eme pontban a ZX81 előnye annyira nyilvánvaló, hogy sok indoklást nem is igényel, csupán néhány példát hadd közöljek: az elmúlt években a &ldquo;Bit-Let&rdquo; c. kitűnő szaklapban több, ZX81-re írott hangdigitalizáló, zongorázó, stb. program jelent meg, míg az amigára egy sem. Egy zenei műsoros kazettát is készítettek a ZX81, a Spectrum és az IBM PC segítségével, ami megvásárolható a hanglemezboltokban. (természetesen csak amiga készlet tart) Címe: P.R. Computer</p>
+<p>3. Sebesség - Erre is csak néhány rövid példa: a ZX81 egyaránt használható SLOW és FAST üzemmódban is, míg az amigán ilyen nem létezik, az csak a SLOW üzemmódot ismeri. Köztudott az is, hogy az amiga az ún. 3.5-ös floppy-ját igen lassan kezeli - természetesen ellentétben a ZX81-gyel.</p>
+<p>4. Vírusveszély - Ennél a rendkívül fontos pontnál ismét találkozhatunk a <strong>Sinclair Research Ltd.</strong> kiváló szakembereinek egy újabb programozói telitalálatával. A ZX81 ROM programjában elhelyeztek egy zseniális vírustalanító rutint (állítólag ez még a Hornák-félénél is jobb, de ezt H. Z. tagadja), ennek következtében ezeddig egyetlen ZX81 felhasználó sem találkozott még vírussal. Ezzel szemben a legutóbbi CHIP magazin tanúbizonysága szerint eddig 10 amiga-vírust határoztak meg.</p>
+<p>folyt.köv</p>
+
+</div>
+
+<div class="old-times">
+    <strong>Lapunk következő számában már lesz számítástechnikai rejtvény is!!!</strong>
+</div>
+
+</div>
+  </article>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img class="lightbox-img" id="lightbox-img" alt="">
+</div>
+
+<script>
+(function () {
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightbox-img');
+
+  document.querySelectorAll('.article-image, .article-content img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      lightboxImg.src = img.currentSrc || img.src;
+      lightboxImg.alt = img.alt || '';
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container site-footer-inner">
+    <div class="footer-about">
+      <div class="footer-text">
+        <p>A Lovassy László Gimnázium 1992-ben érettségizett matematika tagozatos osztályának tudományos, kuturális és közéleti magazinja. Szerkesztők: Golden Dániel és Péter László. Email címünk: <a href="mailto:info@pimpaestudomany.hu">info@pimpaestudomany.hu</a></p>
+        <p>Kiadja a Paralelepipedon Zrt. Megjelenik nagyon ritkán, kb. 25 példányban. Még mindig nem terjeszti a Magyar Posta. Kéziratokat Google drive-on tárolunk, de néha eltűnnek. A lapot mindenki saját felelősségére olvashatja!</p>
+        <p>A címlapon jelzett fizetőeszközökön kívül elfogadható még: 0,0001; 1 üveg EKF2023 sör; 1 vödör kumisz; 2m³ földgáz; 2 talicska lengyel szén. Az online változat ingyenes, de persze nem olyan jó. Ez már csak így van.</p>
+    <p class="copyright">&copy; 2026 Pimpa és Tudomány</p>
+      </div>
+      <img class="footer-image" src="/Pimpa_stamp.jpg" alt="Pimpa pecsét">
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>
