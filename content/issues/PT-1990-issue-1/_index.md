@@ -1,5 +1,5 @@
 +++
-title = 'I. évfolyam, 1. szám'
+title = 'P&T I. évf. 1. szám'
 layout = 'issue'
 date = 1990-09-03
 issue_number = 5

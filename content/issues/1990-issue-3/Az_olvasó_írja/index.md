@@ -29,9 +29,11 @@ A birtokomba jutott Géniusz nevű himbi-limbi felszólításának eleget téve 
 Tisztelt főszerkesztő úr!
 {{< /old-times >}}
 
+{{< old-arial >}}
 Én is tagja vagyok lelekes olvasótáboruknak, s mondhatom az újság igazi csemege, nekem nagyon tetszik, s biztos vagyok benne, másoknak is. A cikkek érdekesek, változatosak, nekünk szólnak. Mégis mi késztetett arra, hogy tollat ragadjak? Először is már maga a cím sem az igazi: "DÉLI NYÚZ". Ennyi erővel akár "LITYERATURNAJA GAZÉTA" is lehetne... És miért angolusul van alatta a szöveg: "of the II.A. Public Center" ? De mindennek a betetőzése a címlap alján álló három sor: "Disz nyúz pépör vóz edited báj..." Szerintem ezeket a közérdekű információkat tartalmazó sorokat kötelességük lenne magyarul írni. A cím különösen rossz, hiszen az újság még véletlenül sem naponta jelenik meg. Szerintem pályázatot kellene kiírni az újság nevére, s száműzni belőle mindennemű felesleges idegennyelvű megnyilatkozást, hiszen magyarok vagyunk, és miért nem az anyanyelvünkön írnánk? Kérem a tisztelt Főszerkesztő úr válaszát.
 
 Tisztelettel: Szeky
+{{< /old-arial >}}
 
 {{< old-times >}}
 Tisztelt Szekendy úr!

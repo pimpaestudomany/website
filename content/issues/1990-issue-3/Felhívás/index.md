@@ -12,9 +12,10 @@ weight = 90
 _FELHÍVÁS !!!_
 {{< /old-times >}}
 
+{{< old-arial >}}
 Lapunk szerkesztősége pályázatot hirdet újságunk nevének megváltoztatására. A tippeket Golden Dániel felelős szerkesztőnek adjátok. A legsikeresebb pályázó csokoládé-jutalomban részesül. Előre is köszönjük.
 
-{{< old-arial >}}
+
 {{< /old-arial >}}
 
 ![Kazal Kolos könyveinek hirdetése](kolos.png)

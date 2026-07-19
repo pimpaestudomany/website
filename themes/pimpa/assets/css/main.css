@@ -529,7 +529,7 @@ img {
 
 .article-content p.align-right {
   float: right;
-  width: 40%;
+  max-width: 40%;
   margin: 0 0 1rem 1.5rem;
 }
 
@@ -547,7 +547,7 @@ img {
 
 .article-content p.align-left {
   float: left;
-  width: 40%;
+  max-width: 40%;
   margin: 0 1.5rem 1rem 0;
 }
 
@@ -706,3 +706,10 @@ img {
     font-size: xx-large;
 }
 
+.responsive-columns {
+    column-width: 300px;
+            
+    column-gap: 20px; 
+            
+    column-rule: 1px solid #ccc; 
+}
