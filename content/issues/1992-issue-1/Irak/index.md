@@ -18,7 +18,7 @@ weight = 20
 
 < szerk. >
 
-Mint tudósküldött tudósító, a P&T főszerkesztőjétől megbízást kaptam egy iraki helyszíni tudósítás elkészítésére. Rögtön a dolgok közepébe vágtam, elindultam a mesés Kelet felkutatására. Sajnos a szerkesztőség anyagilag nem finanszírozta az utazást, ezért csak Csopakig jutottam el, de nem is kellett tovább mennem, mert kitűnő irak-szakértőre leltem. Az illető ragaszkodott inkognitójához, kívánsága szerint ezért egyszerűen Jenőnek hívtam. Ha esetleg valaki megbotránkozna a leírtakon, ne a szerkesztőséget ostromolja felháborodott leveleivel, ez egy interjú, nem is találtam ki. No, de vágjunk mindjárt a közepébe:
+Mint kiküldött tudósító, a P&T főszerkesztőjétől megbízást kaptam egy iraki helyszíni tudósítás elkészítésére. Rögtön a dolgok közepébe vágtam, elindultam a mesés Kelet felkutatására. Sajnos a szerkesztőség anyagilag nem finanszírozta az utazást, ezért csak Csopakig jutottam el, de nem is kellett tovább mennem, mert kitűnő irak-szakértőre leltem. Az illető ragaszkodott inkognitójához, kívánsága szerint ezért egyszerűen Jenőnek hívtam. Ha esetleg valaki megbotránkozna a leírtakon, ne a szerkesztőséget ostromolja felháborodott leveleivel, ez egy interjú, nem is találtam ki. No, de vágjunk mindjárt a közepébe:
 
 – Kedves Jenő! Ön közismert irak-szakértő, a TBC (Táncoló Boci-Cukorkák) hírügynökség régi informátora. Hány évet is töltött Irakban?
 
@@ -30,7 +30,7 @@ Mint tudósküldött tudósító, a P&T főszerkesztőjétől megbízást kaptam
 
 – Ez azt hiszem némi magyarázatra szorul ...
 
-– Egy évig jártam a 'Jamea Al-Jumurjat'-ra (Bagdadi Műszaki Egyetem [BME]). Itt az előadótermekben padlószőnyegek voltak. El tudja képzelni milyen az? A takarítás annyiból állt, hogy néha a padlót pálmalevelekkel (!) felsöpörték. Az volt, leszedte a féről, összefogta, söpörte, én meg csak néztem. Ez a padlószőnyeg rendkívül praktikus volt ezen az éghajlaton. Olyan mennyiségű szennyeződést volt képes magába szedni, hogy a kiskakas gyémántfélkrajcárja is megirigyelhette volna. Ha valaki dobbantott egyet, teljesen eltűnt a porfelhőben. Néha, mikor volt áram és esetleg bekapcsolták az elhanyagolt hűtőberendezést, olyan kibírhatatlan porvihar keletkezett, hogy az előadót már a harmadik sorból sem lehetett látni és utána egész szünetben vályogot köpködtünk. Ezek után úgy döntöttünk, hogy hűtés nélkül kibírjuk a meleget, és egy emberként követeltük a hűtőberendezés kikapcsolását. Egyébként nem volt túl meleg, a 40-45 Celsius-fokot sohasem haladta meg a hőmérséklet.
+– Egy évig jártam a 'Jamea Al-Jumurjat'-ra (Bagdadi Műszaki Egyetem [BME]). Itt az előadótermekben padlószőnyegek voltak. El tudja képzelni milyen az? A takarítás annyiból állt, hogy néha a padlót pálmalevelekkel (!) felsöpörték. Az volt, leszedte a féről, összefogta, söpörte, én meg csak néztem. Ez a padlószőnyeg rendkívül praktikus volt ezen az éghajlaton. Olyan mennyiségű szennyeződést volt képes magába szedni, hogy a kiskakas gyémántfélkrajcárja is megirigyelhette volna. Ha valaki dobbantott egyet, teljesen eltűnt a porfelhőben. Néha, mikor volt áram és esetleg bekapcsolták az elhanyagolt hűtőberendezést, olyan kib....tt porvihar keletkezett, hogy az előadót már a harmadik sorból sem lehetett látni és utána egész szünetben vályogot köpködtünk. Ezek után úgy döntöttünk, hogy hűtés nélkül kibírjuk a meleget, és egy emberként követeltük a hűtőberendezés kikapcsolását. Egyébként nem volt túl meleg, a 40-45 Celsius-fokot sohasem haladta meg a hőmérséklet.
 
 – Beszéljen az osztálytársairól!
 
@@ -40,7 +40,7 @@ Mint tudósküldött tudósító, a P&T főszerkesztőjétől megbízást kaptam
 
 – De miért gyakoriak az ilyen dolgok?
 
-– A vallásuk még azt is tiltja, hogy fiú és lány megfogja egymás kezét, ezért inkább a kisfiúkat használják. Mint mondtam én is sok zaklatásnak voltam kitéve, de még akkor sem lankadtak, amikor jól elküldtem őket a p....ba és közöltem velük, hogy én inkább a nőt inkább előnyben részesítem. Visszatérve a kézfogásra, az irányú tudatlanságomból egyszer konfliktusom is támadt. Egyszer egy évfolyamtársam bemutatott az egyik hölgyismerősömnek. És teljesen természetesen kezet nyújtottam, a lány szintén. Pár perc múlva, mikor a lány elment az arab 'barátom' majdnem ledöntött a lábamról, hogy megfogni egy lány kezét. Próbáltam megértetni vele, hogy engem is bevett szokás, de nagyon nem hatotta meg.
+– A vallásuk még azt is tiltja, hogy fiú és lány megfogja egymás kezét, ezért inkább a kisfiúk egymással huncutkodnak. Mint mondtam én is sok zaklatásnak voltam kitéve, de még akkor sem lankadtak, amikor jól elküldtem őket a p....ba és közöltem velük, hogy én inkább a nőt inkább előnyben részesítem. Visszatérve a kézfogásra, az irányú tudatlanságomból egyszer konfliktusom is támadt. Egyszer egy évfolyamtársam bemutatott az egyik hölgyismerősömnek. És teljesen természetesen kezet nyújtottam, a lány szintén. Pár perc múlva, mikor a lány elment az arab 'barátom' majdnem ledöntött a lábamról, hogy megfogni egy lány kezét. Próbáltam megértetni vele, hogy engem is bevett szokás, de nagyon nem hatotta meg.
 
 ![katona](katona.png)
 
