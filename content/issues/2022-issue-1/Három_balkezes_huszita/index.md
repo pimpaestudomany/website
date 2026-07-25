@@ -11,7 +11,7 @@ weight = 80
 
 Legutóbbi számunkban közöltünk egy nagyon érdekes matematika feladatot, amire sajnálatos módon eddig nem érkezett megoldás. Ez teljességgel érthetetlen, hiszen a megoldásához nem volt szükség semmiféle különleges, spec. matematika tagozaton nem tanított ismeretre. Tovább nem várva a beküldőkre, közöljük a helyes megoldást.
 
-Ez volt a feladat:
+[Ez volt a feladat](../../1992-issue-1/készüljünk_az_érettségire/):
 
 ![matematika feladat](matfeladat.jpg)
 
