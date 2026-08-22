@@ -273,6 +273,17 @@
     </tfoot>
   </table>
 </div>
+<!-- Money Celebration Overlay -->
+<div id="money-celebration-overlay" class="money-celebration-overlay" style="display: none;">
+  <canvas id="money-canvas"></canvas>
+  <div class="celebration-modal">
+    <div id="celebration-icon" class="celebration-icon">💰💶🪙💶💰</div>
+    <h2 id="celebration-title">TELITALÁLAT!</h2>
+    <p id="celebration-subtitle" class="celebration-subtitle">13+1 találatos szelvény! Megütötted a főnyereményt!</p>
+    <div id="celebration-jackpot" class="celebration-jackpot">💎 MESÉS VAGYON! 💎<P>(lenne a tiéd, ha ez egy valódi totó lenne)</div>
+    <button id="celebration-close-btn" class="celebration-close-btn">Köszi szépen</button>
+  </div>
+</div>
 <style>
 .toto-quiz-container {
   width: 100%;
@@ -404,6 +415,118 @@ tr[data-answered="true"] .quiz-cell {
   font-size: 1.05rem;
   color: #1a1a1a;
 }
+
+/* Money Celebration Overlay Styles */
+.money-celebration-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeInOverlay 0.4s ease forwards;
+}
+
+#money-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.celebration-modal {
+  position: relative;
+  z-index: 100000;
+  background: linear-gradient(135deg, #1b5e20, #2e7d32, #1b5e20);
+  border: 4px solid #ffd700;
+  border-radius: 20px;
+  padding: 2.5rem;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 0 50px rgba(255, 215, 0, 0.8), 0 15px 40px rgba(0, 0, 0, 0.6);
+  max-width: 90%;
+  width: 440px;
+  animation: popInModal 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes popInModal {
+  0% { transform: scale(0.4); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fadeInOverlay {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.celebration-icon {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  animation: pulseIcon 1s infinite alternate ease-in-out;
+}
+
+@keyframes pulseIcon {
+  from { transform: scale(1); }
+  to { transform: scale(1.15); }
+}
+
+.celebration-modal h2 {
+  font-size: 2.3rem;
+  margin: 0 0 0.5rem 0;
+  color: #ffd700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), 0 0 10px rgba(255,215,0,0.5);
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.celebration-subtitle {
+  font-size: 1.1rem;
+  margin: 0 0 1.2rem 0;
+  color: #f0f0f0;
+}
+
+.celebration-jackpot {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: rgba(0,0,0,0.35);
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: 2px dashed #ffd700;
+  margin-bottom: 1.5rem;
+  animation: glowText 1.5s infinite alternate;
+}
+
+@keyframes glowText {
+  from { text-shadow: 0 0 5px #fff, 0 0 10px #ffd700; }
+  to { text-shadow: 0 0 15px #fff, 0 0 30px #ffd700, 0 0 40px #ff9100; }
+}
+
+.celebration-close-btn {
+  background: #ffd700;
+  color: #1b5e20;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.8rem 2.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: all 0.2s ease;
+}
+
+.celebration-close-btn:hover {
+  background: #ffffff;
+  color: #1b5e20;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 20px rgba(255,215,0,0.6);
+}
 </style>
 <script>
 (function() {
@@ -419,6 +542,123 @@ tr[data-answered="true"] .quiz-cell {
     return hashHex.substring(0, 16);
   }
 
+  let celebrated = false;
+  function triggerCelebration(score, resetFn) {
+    if (celebrated) return;
+    celebrated = true;
+
+    const overlay = document.getElementById('money-celebration-overlay');
+    if (!overlay) return;
+    overlay.style.display = 'flex';
+
+    const canvas = document.getElementById('money-canvas');
+    const iconEl = document.getElementById('celebration-icon');
+    const titleEl = document.getElementById('celebration-title');
+    const subtitleEl = document.getElementById('celebration-subtitle');
+    const jackpotEl = document.getElementById('celebration-jackpot');
+    const btnEl = document.getElementById('celebration-close-btn');
+
+    if (score >= 14) {
+      if (canvas) canvas.style.display = 'block';
+      if (iconEl) iconEl.textContent = '💰💸🪙💶🪙💸💰';
+      if (titleEl) titleEl.textContent = 'TELITALÁLAT!';
+      if (subtitleEl) subtitleEl.textContent = '13+1 találatos szelvény! Megütötted a főnyereményt!';
+      if (jackpotEl) {
+        jackpotEl.style.display = 'block';
+        jackpotEl.innerHTML = '💎 MESÉS VAGYON! 💎<P>(lenne a tiéd, ha ez egy valódi totó lenne)';
+      }
+      if (btnEl) {
+        btnEl.textContent = 'Köszi szépen';
+        btnEl.onclick = function() {
+          overlay.style.display = 'none';
+        };
+      }
+
+      if (canvas) {
+        const ctx = canvas.getContext('2d');
+        function resizeCanvas() {
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+        }
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        const items = ['💵', '💸', '💰', '🪙', '₤', '💷', '🪙', '€', '💲', '💶'];
+        const particles = [];
+        const particleCount = 120;
+
+        for (let i = 0; i < particleCount; i++) {
+          particles.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height - canvas.height,
+            size: Math.random() * 26 + 18,
+            speedY: Math.random() * 3.5 + 2,
+            speedX: (Math.random() - 0.5) * 2.5,
+            rot: Math.random() * Math.PI * 2,
+            rotSpeed: (Math.random() - 0.5) * 0.06,
+            symbol: items[Math.floor(Math.random() * items.length)]
+          });
+        }
+
+        function animate() {
+          if (overlay.style.display === 'none') return;
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+          particles.forEach(p => {
+            p.y += p.speedY;
+            p.x += p.speedX + Math.sin(p.y / 30) * 0.5;
+            p.rot += p.rotSpeed;
+
+            if (p.y > canvas.height + 50) {
+              p.y = -30;
+              p.x = Math.random() * canvas.width;
+            }
+
+            ctx.save();
+            ctx.translate(p.x, p.y);
+            ctx.rotate(p.rot);
+            ctx.font = p.size + 'px sans-serif';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(p.symbol, 0, 0);
+            ctx.restore();
+          });
+
+          requestAnimationFrame(animate);
+        }
+
+        animate();
+      }
+    } else {
+      if (canvas) canvas.style.display = 'none';
+      if (jackpotEl) jackpotEl.style.display = 'none';
+
+      if (score === 12 || score === 13) {
+        if (iconEl) iconEl.textContent = '🎉';
+        if (titleEl) titleEl.textContent = 'Gratulálunk!';
+        if (subtitleEl) subtitleEl.textContent = score + ' találat! Nyereményed ' + (1599+(13-score)*12345) + 'Ft, amin ' + (542+(13-score)*3829) + ' másik nyertessel osztozol.';
+        if (btnEl) {
+          btnEl.textContent = 'Tartsd meg az aprót';
+          btnEl.onclick = function() {
+            overlay.style.display = 'none';
+          };
+        }
+      } else {
+        if (iconEl) iconEl.textContent = '😢';
+        if (titleEl) titleEl.textContent = 'Nem nyertél';
+        if (subtitleEl) subtitleEl.textContent = 'KGZ nagyon szomorú lenne.';
+        if (btnEl) {
+          btnEl.textContent = 'Bocsi, újra megpróbálom';
+          btnEl.onclick = function() {
+            overlay.style.display = 'none';
+            if (resetFn) resetFn();
+            celebrated = false;
+          };
+        }
+      }
+    }
+  }
+
   document.querySelectorAll('.toto-quiz-table').forEach(table => {
     const correctScoreEl = table.querySelector('.correct-score');
     const totalScoreEl = table.querySelector('.total-score');
@@ -428,15 +668,48 @@ tr[data-answered="true"] .quiz-cell {
       totalScoreEl.textContent = questionRows.length;
     }
 
+    function resetSelection() {
+      questionRows.forEach(r => {
+        r.removeAttribute('data-answered');
+        r.querySelectorAll('.quiz-cell').forEach(c => {
+          c.classList.remove('correct', 'incorrect');
+        });
+        const inputCell = r.querySelector('.quiz-input-cell');
+        if (inputCell) {
+          inputCell.classList.remove('correct', 'incorrect');
+        }
+        const inputEl = r.querySelector('.quiz-text-input');
+        if (inputEl) {
+          inputEl.value = '';
+          inputEl.disabled = false;
+        }
+        const valaszCell = r.querySelector('.valasz-cell');
+        if (valaszCell) {
+          valaszCell.textContent = '';
+          valaszCell.className = 'col-valasz valasz-cell';
+        }
+      });
+      if (correctScoreEl) {
+        correctScoreEl.textContent = '0';
+      }
+    }
+
     function updateScore() {
       if (!correctScoreEl) return;
       let count = 0;
+      let answeredCount = 0;
       questionRows.forEach(r => {
         if (r.querySelector('.valasz-cell.valid')) {
           count++;
         }
+        if (r.getAttribute('data-answered') === 'true') {
+          answeredCount++;
+        }
       });
       correctScoreEl.textContent = count;
+      if (answeredCount === questionRows.length) {
+        triggerCelebration(count, resetSelection);
+      }
     }
 
     // Multiple-choice cell clicks
