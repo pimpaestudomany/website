@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amőbafeladványunk megoldása · Pimpa és Tudomány</title>
+  <meta name="description" content="Legutóbbi számunkban közöltük Somogyi Balázs amőbafeladványát. Olvasóink egy része azóta is rendszeresen zaklatta a szerkesztőséget, követelve a megoldás publikálását. Próbáld ki a lépéseket, vagy játssz a gép ellen!">
+  <link rel="icon" href="https://pimpaestudomany.hu/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/main.min.8dc85d0394d26c5c8f3f47490cbca0a716d4b819dd0c1fad1e849434465a5944.css" integrity="sha256-jchdA5TSbFyPP0dJDLygpxbUuBndDB&#43;tHoSUNEZaWUQ=">
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header">
+  <div class="container site-header-inner">
+    <a class="masthead" href="/">
+      <span class="masthead-logo-wrap">
+        <div class="crest-sentinel" aria-hidden="true"></div>
+        <span class="masthead-logo-slot">
+          <img class="masthead-logo" src="https://pimpaestudomany.hu/cimlap.svg" alt="Pimpa és Tudomány">
+        </span>
+        <img class="masthead-crest" src="https://pimpaestudomany.hu/cimer.svg" alt="">
+      </span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" hidden>
+        
+          
+            <li class="nav-item"><a href="/">Címlap</a></li>
+          
+        
+          
+            <li class="nav-item has-submenu">
+              <div class="nav-item-row">
+                <button class="submenu-toggle" aria-expanded="false"></button>
+                <a href="/issues/">Kiadások</a>
+              </div>
+              
+                
+                
+                  <ul class="submenu" hidden>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/2022-issue-1/">P&amp;T III. évf., 1-7,2 szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1992-issue-1/">P&amp;T II. évf. 1-3. szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/pt-1990-issue-1/">P&amp;T I. évf. 1. szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1990-issue-4/">Daily News I. évf., 4. szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1990-issue-3/">Daily News I. évf., 3. szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1990-issue-2/">Daily News I. évf., 2. szám</a></li>
+                    
+                      <li><a href="https://pimpaestudomany.hu/issues/1990-issue-1/">Daily News I. évf., 1. szám</a></li>
+                    
+                  </ul>
+                
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="header-sentinel" aria-hidden="true"></div>
+
+<script>
+(function () {
+  var navToggle = document.getElementById('nav-toggle');
+  var navMenu = document.getElementById('nav-menu');
+
+  navToggle.addEventListener('click', function () {
+    var open = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', String(!open));
+    navMenu.hidden = open;
+    if (!open && !navMenu.style.width) {
+      navMenu.style.width = navMenu.offsetWidth + 'px';
+    }
+  });
+
+  document.querySelectorAll('.submenu-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      btn.closest('.has-submenu').querySelector('.submenu').hidden = open;
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!document.getElementById('main-nav').contains(e.target)) {
+      navToggle.setAttribute('aria-expanded', 'false');
+      navMenu.hidden = true;
+    }
+  });
+
+  var header = document.querySelector('.site-header');
+  var sentinel = document.querySelector('.header-sentinel');
+  if (header && sentinel && 'IntersectionObserver' in window) {
+    var headerObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        header.classList.toggle('header-compact', !entry.isIntersecting);
+      });
+    });
+    headerObserver.observe(sentinel);
+  }
+
+  var logoWrap = document.querySelector('.masthead-logo-wrap');
+  var crestSentinel = document.querySelector('.crest-sentinel');
+  if (logoWrap && crestSentinel && 'IntersectionObserver' in window) {
+    var logoObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        logoWrap.classList.toggle('logo-pinned', !entry.isIntersecting);
+      });
+    });
+    logoObserver.observe(crestSentinel);
+  }
+})();
+</script>
+
+    <main class="site-main">
+      
+
+<div class="container">
+  <article class="article">
+    <header class="article-header">
+      <p class="article-eyebrow"><a href="https://pimpaestudomany.hu/issues/2022-issue-1/">&larr; P&amp;T III. évf., 1-7,2 szám</a></p>
+      <p class="kicker">Interaktív játék</p>
+      <h1 class="page-title" style="">Amőbafeladványunk megoldása</h1>
+      <p class="article-meta">
+        Somogyi Balázs feldványa, Péter László amőbajátéka
+        &middot; <time datetime="2022-09-10">10 September 2022</time>
+      </p>
+    </header>
+    <div class="article-content" style=""><p><a href="../../1992-issue-1/am%C5%91ba_feladv%C3%A1ny/">Legutóbbi számunkban közöltük</a> Somogyi Balázs amőbafeladványát.
+Olvasóink egy része azóta is rendszeresen zaklatta a szerkesztőséget,
+követelve a megoldás publikálását. Íme:</p>
+<p>Ha <strong>◯</strong> a megjelölt négyzetet lépi, akkor <strong>⨉</strong> következő lépésétől függetlenül
+lépéselőnybe kerül: a következő <strong>◯</strong>-t mindig úgy tudja elhelyezni, hogy
+<strong>⨉</strong>-nek csak 1 lehetséges lépése lehet, ami nem vezet azonnali
+veszítéshez. A lehetséges lépések végigpróbálgatását az olvasóra bízzuk.</p>
+<div id="amoba-game-container" class="amoba-container" data-rows="10" data-cols="10" data-win-len="5" data-moves="X:2,8; O:3,7; X:3,6; O:4,3; X:3,3; O:4,4; X:4,5; O:4,6; X:5,3; O:5,5; X:6,3; O:5,6; O:6,4; X:7,3; X:7,4; O:7,6; O:7,7; X:8,6; X:8,3; O:9,3; O:6,6; X:8,8" data-mark="5,4">
+  <div class="amoba-toolbar">
+    <div class="amoba-status">
+      <span class="amoba-step-counter">Lépések: <strong id="amoba-move-count">22</strong></span>
+    </div>
+    <div class="amoba-actions">
+      <button type="button" id="amoba-btn-auto" class="amoba-btn amoba-btn-auto" title="Játssz a gép ellen">🤖 Autómata</button>
+      <button type="button" id="amoba-btn-hint" class="amoba-btn amoba-btn-hint" title="Segítség">💡 Segítség</button>
+      <button type="button" id="amoba-btn-undo" class="amoba-btn" title="Utolsó lépés visszavonása">↶ Vissza</button>
+      <button type="button" id="amoba-btn-reset" class="amoba-btn" title="Alaphelyzet visszaállítása">↺ Feladvány</button>
+      <button type="button" id="amoba-btn-clear" class="amoba-btn" title="Tabula rasa">🗑 Törlés</button>
+    </div>
+  </div>
+  <div style="display: hidden" class="amoba-config-panel">
+    <label for="amoba-size-select" class="amoba-config-label">Tábla mérete:</label>
+    <select id="amoba-size-select" class="amoba-select">
+      <option value="10" selected>10 x 10 (eredeti)</option>
+      <option value="12">12 x 12</option>
+      <option value="15">15 x 15</option>
+    </select>
+  </div>
+  <div class="amoba-board-wrapper">
+    <div id="amoba-board" class="amoba-board">
+      <!-- Grid cells rendered by JS -->
+    </div>
+  </div>
+  <div id="amoba-winner-banner" class="amoba-banner" style="display: none;"></div>
+</div>
+<style>
+.amoba-container {
+  margin: 2rem auto;
+  max-width: 580px;
+  background: #ffffff;
+  border: 3px solid #1a1a1a;
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+  color: #1a1a1a;
+  box-sizing: border-box;
+}
+
+.amoba-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.amoba-status {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.amoba-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: 2px solid #1a1a1a;
+}
+
+.amoba-badge-x {
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+.amoba-badge-o {
+  background: #f0f4f8;
+  color: #1a1a1a;
+}
+
+.amoba-step-counter {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #4a5568;
+  background: #edf2f7;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  border: 1px solid #cbd5e0;
+}
+
+.amoba-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.amoba-btn {
+  background: #f7fafc;
+  border: 1.5px solid #1a1a1a;
+  border-radius: 4px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #1a1a1a;
+  transition: all 0.15s ease;
+}
+
+.amoba-btn:hover {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+.amoba-btn:active {
+  transform: translateY(1px);
+}
+
+.amoba-btn-auto.active {
+  background: #22c55e !important;
+  color: #ffffff !important;
+  border-color: #166534 !important;
+}
+
+.amoba-btn-auto.active:hover {
+  background: #16a34a !important;
+  color: #ffffff !important;
+}
+
+.amoba-btn-hint.active {
+  background: #22c55e !important;
+  color: #ffffff !important;
+  border-color: #166534 !important;
+}
+
+.amoba-btn-hint.active:hover {
+  background: #16a34a !important;
+  color: #ffffff !important;
+}
+
+.amoba-config-panel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.75rem 0;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.amoba-config-label {
+  font-weight: 600;
+}
+
+.amoba-select {
+  padding: 0.25rem 0.5rem;
+  border: 1.5px solid #1a1a1a;
+  border-radius: 4px;
+  background: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.amoba-board-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.amoba-board {
+  display: grid;
+  grid-template-columns: repeat(var(--amoba-cols, 10), 1fr);
+  grid-template-rows: repeat(var(--amoba-rows, 10), 1fr);
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 1 / 1;
+  border: 2.5px solid #1a1a1a;
+  background-color: #1a1a1a;
+  gap: 2px;
+  box-sizing: border-box;
+}
+
+.amoba-cell {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.12s ease;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+.amoba-cell:hover:not(.amoba-filled) {
+  background-color: #e8f4fd;
+}
+
+.amoba-cell.amoba-filled {
+  cursor: default;
+}
+
+.amoba-cell.amoba-instant-win {
+  background-color: #dcfce7;
+}
+
+.amoba-cell.amoba-instant-win:hover {
+  background-color: #bbf7d0;
+}
+
+.amoba-cell.amoba-must-block {
+  background-color: #fee2e2;
+}
+
+.amoba-cell.amoba-must-block:hover {
+  background-color: #fecaca;
+}
+
+@keyframes amoba-pulse {
+  from { background-color: #fef08a; }
+  to { background-color: #fde047; }
+}
+
+.amoba-cell.amoba-computer-flash {
+  animation: amoba-comp-flash-anim 0.4s ease-in-out infinite;
+  box-shadow: inset 0 0 0 3px #f59e0b;
+}
+
+@keyframes amoba-comp-flash-anim {
+  0%, 100% {
+    background-color: #fef08a;
+  }
+  50% {
+    background-color: #f59e0b;
+  }
+}
+
+.amoba-cell.amoba-winning {
+  background-color: #fef08a !important;
+  animation: amoba-pulse 1.2s infinite alternate !important;
+  box-shadow: 0 0 0 3px #eab308 !important;
+}
+
+.amoba-cell svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.amoba-hover-preview {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+}
+
+.amoba-cell:hover:not(.amoba-filled) .amoba-hover-preview {
+  opacity: 0.35;
+}
+
+.amoba-banner {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #dcfce7;
+  color: #166534;
+  border: 2px solid #22c55e;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.amoba-banner.computer-win {
+  background: #fcdce7;
+  color: #651634;
+  border: 2px solid #c5225e;
+}
+
+.amoba-banner.tie {
+  background: #fcfce7;
+  color: #656534;
+  border: 2px solid #c5c55e;
+}
+</style>
+<script>
+(function() {
+  const container = document.getElementById("amoba-game-container");
+  if (!container) return;
+
+  const boardEl = document.getElementById("amoba-board");
+  const btnAuto = document.getElementById("amoba-btn-auto");
+  const btnHint = document.getElementById("amoba-btn-hint");
+  const turnBadge = document.getElementById("amoba-turn-badge");
+  const moveCountEl = document.getElementById("amoba-move-count");
+  const btnUndo = document.getElementById("amoba-btn-undo");
+  const btnReset = document.getElementById("amoba-btn-reset");
+  const btnClear = document.getElementById("amoba-btn-clear");
+  const sizeSelect = document.getElementById("amoba-size-select");
+  const winnerBanner = document.getElementById("amoba-winner-banner");
+
+  let rows = parseInt(container.getAttribute("data-rows") || "10", 10);
+  let cols = parseInt(container.getAttribute("data-cols") || "10", 10);
+  const winLen = parseInt(container.getAttribute("data-win-len") || "5", 10);
+  const rawMoves = container.getAttribute("data-moves") || "";
+  const mark = container.getAttribute("data-mark") || "";
+
+  let boardState = [];
+  let moveHistory = [];
+  let currentPlayer = "X";
+  let isGameOver = false;
+  let preloadedHistory = [];
+  let isAutoMode = false;
+  let isHintMode = false;
+  let lastComputerMove = null;
+  let flashTimer = null;
+  let autoTimer = null;
+  let computerPlayer = null;
+
+  function scheduleComputerMove() {
+    if (autoTimer) {
+      clearTimeout(autoTimer);
+      autoTimer = null;
+    }
+    if (!isAutoMode || isGameOver) return;
+
+    autoTimer = setTimeout(() => {
+      autoTimer = null;
+      if (!isAutoMode || isGameOver) return;
+      computerPlayer = currentPlayer
+      const move = computeComputerMove(currentPlayer, 8);
+      if (move) {
+        makeComputerMove(move.r, move.c);
+      }
+    }, 350);
+  }
+
+  function makeComputerMove(r, c) {
+    if (flashTimer) clearTimeout(flashTimer);
+    lastComputerMove = { r, c };
+
+    flashTimer = setTimeout(() => {
+      lastComputerMove = null;
+      flashTimer = null;
+      updateDisplay();
+    }, 2000);
+
+    handleCellClick(r, c, false);
+  }
+
+  function getLineLength(r, c, player) {
+    const directions = [
+      [0, 1],
+      [1, 0],
+      [1, 1],
+      [1, -1]
+    ];
+    let maxLen = 0;
+    let sameCount = 1;
+    let maxOpenEnds = 0;
+    for (const [dr, dc] of directions) {
+      let count = 1;
+      let k = 1;
+      let totalSpace = 1;
+      let skippedSpace = false;
+      let stopCount = false;
+      let openEnds = 0;
+      while (true) {
+        const nr = r + dr * k;
+        const nc = c + dc * k;
+        if (nr >= 0 && nr < rows && nc >= 0 && nc < cols) {
+	  if (boardState[nr][nc] === player) {
+	    if (!stopCount) {
+              count++;
+	    }
+	    totalSpace++
+            k++;
+	  } else if (boardState[nr][nc] === null) {
+	    if (skippedSpace) {
+	      stopCount = true;
+	      openEnds++;
+	    }
+	    totalSpace++
+	    k++;
+	    // allow skipping 1 empty space
+	    skippedSpace = true;
+	  } else {
+	    break;
+	  }
+        } else {
+          break;
+        }
+      }
+      k = 1;
+      stopCount = false
+      while (true) {
+        const nr = r - dr * k;
+        const nc = c - dc * k;
+        if (nr >= 0 && nr < rows && nc >= 0 && nc < cols) {
+	  if (boardState[nr][nc] === player) {
+	    if (!stopCount) {
+              count++;
+	    }
+	    totalSpace++
+            k++;
+	  } else if (boardState[nr][nc] === null) {
+	    if (skippedSpace) {
+	      stopCount = true;
+	      openEnds++;
+	    }
+	    totalSpace++
+	    k++;
+	    // allow skipping 1 empty space
+	    skippedSpace = true;
+	  } else {
+	    break;
+	  }
+        } else {
+          break;
+        }
+      }
+      if (totalSpace < 5) {
+      	count = 0 
+      }
+      if (count > maxLen) {
+        maxLen = count;
+	sameCount = 1;
+	maxOpenEnds = openEnds;
+      } else if (count == maxLen) {
+	if (openEnds > maxOpenEnds) {
+	  maxOpenEnds = openEnds;
+	  sameCount = 1;
+	} else if (openEnds === maxOpenEnds) {
+          sameCount += 1;
+	}
+      }
+    }
+    const len = maxLen;
+    const count = sameCount;
+    const open = maxOpenEnds;
+    return { len, open, count };
+  }
+
+  function computeComputerMove(player, depth) {
+    const opponent = player === "X" ? "O" : "X";
+    const emptyCells = [];
+
+    let wins = 0
+    let losses = 0
+    let force = 0
+    let forced = 0
+
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        if (boardState[r][c] === null) {
+          emptyCells.push({ r, c, wins, losses, force, forced });
+        }
+      }
+    }
+
+    if (emptyCells.length === 0) return null;
+    if (emptyCells.length >= rows*cols-1) return emptyCells[Math.floor(Math.random() * emptyCells.length)];
+
+    // 1. If there is an instant win option, take it
+    const instantWins = emptyCells.filter(({ r, c }) => isWinningMove(r, c, player));
+    if (instantWins.length > 0) {
+      cell = instantWins[0];
+      cell.wins = instantWins.length
+      return cell
+    }
+
+    // 2. If there is a square you must block, block it
+    const mustBlocks = emptyCells.filter(({ r, c }) => isWinningMove(r, c, opponent));
+    if (mustBlocks.length > 0) {
+      cell = mustBlocks[0];
+      cell.forced = mustBlocks.length
+      return cell
+    }
+
+    // 3. find squares that result in maximum number of pieces in a row
+    let maxLen = -1;
+    let maxCount = 1;
+    let maxOpen = 0;
+    let bestCandidates = [];
+
+    for (const { r, c } of emptyCells) {
+      const ll = getLineLength(r, c, player);
+      if (ll.len > maxLen) {
+        maxLen = ll.len;
+	maxCount = ll.count;
+	maxOpen = ll.open;
+        bestCandidates = [{ r, c, wins, losses, force, forced }];
+      } else if (ll.len === maxLen) {
+        if (ll.open > maxOpen) {
+	  maxOpen = ll.open;
+	  maxCount = ll.count;
+          bestCandidates = [{ r, c, wins, losses, force, forced }];
+        } else if (ll.open == maxOpen) {
+          if (ll.count > maxCount) {
+  	    maxCount = ll.count;
+       	    bestCandidates = [{ r, c, wins, losses, force, forced }];
+	  } else if (ll.count === maxCount) {
+            bestCandidates.push({ r, c, wins, losses, force, forced });
+	  }
+	}
+      }
+    }
+
+    // the bestest canidates give us the maximum length while blocking the opponent from doing the same
+    let bestestCandidates = []
+    // 3. find squares that would result in maximum number of pieces in a row for the opponent
+    for (const { r, c } of emptyCells) {
+      const ll = getLineLength(r, c, opponent);
+      if (ll.len > maxLen) {
+        maxLen = ll.len;
+	maxCount = ll.count;
+	maxOpen = ll.open;
+        bestCandidates = [{ r, c, wins, losses, force, forced }];
+      } else if (ll.len === maxLen) {
+        if (ll.open > maxOpen) {
+	  maxOpen = ll.open;
+	  maxCount = ll.count;
+          bestCandidates = [{ r, c, wins, losses, force, forced }];
+	} else if (ll.open === maxOpen) {
+          if (ll.count > maxCount) {
+    	    maxCount = ll.count;
+       	    bestCandidates = [{ r, c, wins, losses, force, forced }];
+	  } else if (ll.count === maxCount) {
+	    const cell = bestCandidates.find(bc => bc.r == r && bc.c == c);
+	    if (cell != null) {
+	      bestestCandidates.push(cell);
+	    } else {
+	      bestCandidates.push({ r, c, wins, losses, force, forced });
+	    }
+	  }
+	}
+      }
+    }
+    if (bestestCandidates.length > 0) {
+      bestCandidates = bestestCandidates
+    }
+
+    if (maxLen == 0) return emptyCells[0];
+
+    if (bestCandidates.length === 0) return emptyCells[0];
+
+    const randomItems = (arr, n) => [...arr].sort(() => 0.5 - Math.random()).slice(0, n);
+
+    if (bestCandidates.length > 6) {
+      console.log(`number of candidates: ${bestCandidates.length}`)
+      bestCandidates = randomItems(bestCandidates, 6)
+    }
+
+    if (depth > 0) {
+      // Evaluate candidates for instant win / loss / force / forced outcomes in depth-1 steps
+      const evaluatedCandidates = bestCandidates.map(({ r, c }) => {
+        boardState[r][c] = player;
+        let oppMove = computeComputerMove(opponent, depth-1)
+	boardState[r][c] = null;
+	if (oppMove) {
+	  let wins = oppMove.losses
+	  let losses = oppMove.wins
+	  let force = oppMove.forced
+	  let forced = oppMove.force
+	  return { r, c, wins, losses, force, forced }
+	} else {
+	  let wins = 0;
+	  let losses = 0;
+	  let force = 0;
+	  let forced = 0;
+	  return { r, c, wins, losses, force, forced }
+	}
+      })
+
+      let totalWin = 0
+      let totalLoss = 0
+      let totalForce = 0
+      let totalForced = 0
+      let bestCell = evaluatedCandidates[0]
+      for (const cell of evaluatedCandidates) {
+        totalWin += cell.wins
+	totalLoss += cell.losses
+	totalForce += cell.force
+	totalForced += cell.forced
+	if (cell.losses < bestCell.losses) {
+	  bestCell = cell
+	} else if (cell.losses == bestCell.losses) {
+	  if (cell.wins > bestCell.wins) {
+	    bestCell = cell
+	  } else if (cell.wins == bestCell.wins) {
+	    if (cell.forced < bestCell.forced) {
+	      bestCell = cell
+	    } else if (cell.forced == bestCell.forced) {
+	      if (cell.force > bestCell.force) {
+	        bestCell = cell
+	      }
+	    }
+	  }
+	}
+      }
+      bestCell.wins = totalWin;
+      bestCell.losses = totalLoss;
+      bestCell.force = totalForce;
+      bestCell.forced = totalForced;
+
+      return bestCell;
+    }
+
+    // Otherwise choose one at random
+    return bestCandidates[Math.floor(Math.random() * bestCandidates.length)];
+  }
+
+  // SVG symbols matching newspaper grid style
+  function createXSVG() {
+    return `<svg viewBox="0 0 100 100">
+      <line x1="6" y1="6" x2="94" y2="94" stroke="#1a1a1a" stroke-width="8" stroke-linecap="square"/>
+      <line x1="94" y1="6" x2="6" y2="94" stroke="#1a1a1a" stroke-width="8" stroke-linecap="square"/>
+    </svg>`;
+  }
+
+  function createOSVG(cellId) {
+    const patId = "amoba-pat-" + cellId;
+    return `<svg viewBox="0 0 100 100">
+      <defs>
+        <pattern id="${patId}" width="8" height="8" patternUnits="userSpaceOnUse">
+          <circle cx="4" cy="4" r="1.5" fill="#1a1a1a"/>
+        </pattern>
+      </defs>
+      <circle cx="50" cy="50" r="39" stroke="#1a1a1a" stroke-width="7" fill="url(#${patId})"/>
+    </svg>`;
+  }
+
+  function createMarkSVG() {
+    return `<svg viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="39" stroke="#1a1a1a" stroke-width="7" fill="#000000"/>
+    </svg>`;
+  }
+
+  // Parse moves string format "X:2,8; O:3,7; ..."
+  function parseMoves(str, maxRows, maxCols) {
+    if (!str) return [];
+    const result = [];
+    const items = str.split(";").map(s => s.trim()).filter(Boolean);
+
+    items.forEach(item => {
+      const parts = item.split(":");
+      if (parts.length === 2) {
+        const player = parts[0].trim().toUpperCase();
+        const coords = parts[1].trim().split(",");
+        if (coords.length === 2) {
+          const r = parseInt(coords[0], 10) - 1;
+          const c = parseInt(coords[1], 10) - 1;
+          if (r >= 0 && r < maxRows && c >= 0 && c < maxCols && (player === "X" || player === "O")) {
+            result.push({ r, c, player });
+          }
+        }
+      }
+    });
+
+    return result;
+  }
+
+  function buildGrid(rCount, cCount) {
+    rows = rCount;
+    cols = cCount;
+    boardEl.style.setProperty("--amoba-cols", cols);
+    boardEl.style.setProperty("--amoba-rows", rows);
+    boardEl.innerHTML = "";
+
+    boardState = Array.from({ length: rows }, () => Array(cols).fill(null));
+
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        const cell = document.createElement("div");
+        cell.className = "amoba-cell";
+        cell.dataset.r = r;
+        cell.dataset.c = c;
+        cell.addEventListener("click", () => handleCellClick(r, c));
+        boardEl.appendChild(cell);
+      }
+    }
+  }
+
+  function updateDisplay() {
+    winnerBanner.style.display = "none";
+    winnerBanner.textContent = "";
+
+    const win = checkWinner();
+    isGameOver = !!win;
+
+    let emptyCells = 0;
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        const cellIndex = r * cols + c;
+        const cell = boardEl.children[cellIndex];
+        if (!cell) continue;
+
+        const val = boardState[r][c];
+	if (val === null) emptyCells++;
+        cell.innerHTML = "";
+        cell.classList.remove("amoba-filled", "amoba-winning", "amoba-instant-win", "amoba-must-block", "amoba-computer-flash");
+
+        if (lastComputerMove && lastComputerMove.r === r && lastComputerMove.c === c) {
+          cell.classList.add("amoba-computer-flash");
+        }
+
+        if (val === "X") {
+          cell.classList.add("amoba-filled");
+          cell.innerHTML = createXSVG();
+        } else if (val === "O") {
+          cell.classList.add("amoba-filled");
+          cell.innerHTML = createOSVG(`${r}-${c}`);
+        } else if (!isGameOver) {
+          cell.innerHTML = `<div class="amoba-hover-preview">${currentPlayer === "X" ? createXSVG() : createOSVG(`prev-${r}-${c}`)}</div>`;
+        }
+      }
+    }
+
+    if (emptyCells == 0) isGameOver = true;
+
+    if (moveCountEl) moveCountEl.textContent = moveHistory.length;
+    if (turnBadge) {
+      if (win) {
+        turnBadge.textContent = win.player;
+        turnBadge.className = `amoba-badge amoba-badge-${win.player.toLowerCase()}`;
+      } else {
+        turnBadge.textContent = currentPlayer;
+        turnBadge.className = `amoba-badge amoba-badge-${currentPlayer.toLowerCase()}`;
+      }
+    }
+
+    if (win || emptyCells === 0) {
+      if (win) highlightWinningLine(win.cells);
+      if (winnerBanner) {
+        if (emptyCells === 0) {
+          winnerBanner.textContent = `😲 Döntetlen!`;
+          winnerBanner.classList.remove("computer-win");
+          winnerBanner.classList.add("tie");
+	  winnerBanner.style.display = "block";
+	} else {
+          if (computerPlayer === win.player) {
+	     winnerBanner.textContent = `😢 Sajna, ezt a mérkőzést a gép nyerte!`;
+	     winnerBanner.classList.add("computer-win");
+	     winnerBanner.classList.remove("tie");
+	  } else {
+             winnerBanner.textContent = `🎉 Gratulálunk! ${win.player} nyerte a mérkőzést!`;
+	     winnerBanner.classList.remove("computer-win");
+	     winnerBanner.classList.remove("tie");
+	  }
+	}
+        winnerBanner.style.display = "block";
+      }
+    } else {
+      if (isHintMode) highlightHintSquares();
+    }
+  }
+
+  function isWinningMove(r, c, player) {
+    const directions = [
+      [0, 1],   // horizontal
+      [1, 0],   // vertical
+      [1, 1],   // diagonal \
+      [1, -1]   // diagonal /
+    ];
+    for (const [dr, dc] of directions) {
+      let count = 1;
+      let k = 1;
+      while (true) {
+        const nr = r + dr * k;
+        const nc = c + dc * k;
+        if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && boardState[nr][nc] === player) {
+          count++;
+          k++;
+        } else {
+          break;
+        }
+      }
+      k = 1;
+      while (true) {
+        const nr = r - dr * k;
+        const nc = c - dc * k;
+        if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && boardState[nr][nc] === player) {
+          count++;
+          k++;
+        } else {
+          break;
+        }
+      }
+      if (count >= winLen) return true;
+    }
+    return false;
+  }
+
+  function highlightHintSquares() {
+    const opponent = currentPlayer === "X" ? "O" : "X";
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        if (boardState[r][c] !== null) continue;
+        const idx = r * cols + c;
+        const cell = boardEl.children[idx];
+        if (!cell) continue;
+
+        if (isWinningMove(r, c, currentPlayer)) {
+          cell.classList.add("amoba-instant-win");
+        } else if (isWinningMove(r, c, opponent)) {
+          cell.classList.add("amoba-must-block");
+        }
+      }
+    }
+  }
+
+  function resetAutoTimers() {
+    if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; }
+    if (flashTimer) { clearTimeout(flashTimer); flashTimer = null; }
+    lastComputerMove = null;
+  }
+
+  function handleCellClick(r, c, isHuman = true) {
+    if (isGameOver || boardState[r][c] !== null) return;
+
+    boardState[r][c] = currentPlayer;
+    moveHistory.push({ r, c, player: currentPlayer });
+
+    currentPlayer = currentPlayer === "X" ? "O" : "X";
+    updateDisplay();
+
+    if (isHuman && isAutoMode && !isGameOver) {
+      scheduleComputerMove();
+    }
+  }
+
+  function checkWinner() {
+    const directions = [
+      [0, 1],   // horizontal
+      [1, 0],   // vertical
+      [1, 1],   // diagonal \
+      [1, -1]   // diagonal /
+    ];
+
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        const p = boardState[r][c];
+        if (!p) continue;
+
+        for (const [dr, dc] of directions) {
+          const line = [{ r, c }];
+          for (let k = 1; k < winLen; k++) {
+            const nr = r + dr * k;
+            const nc = c + dc * k;
+            if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && boardState[nr][nc] === p) {
+              line.push({ r: nr, c: nc });
+            } else {
+              break;
+            }
+          }
+          if (line.length >= winLen) {
+            return { player: p, cells: line };
+          }
+        }
+      }
+    }
+    return null;
+  }
+
+  function highlightWinningLine(cells) {
+    cells.forEach(({ r, c }) => {
+      const idx = r * cols + c;
+      const cell = boardEl.children[idx];
+      if (cell) cell.classList.add("amoba-winning");
+    });
+  }
+
+  function loadMoves(moves) {
+    resetAutoTimers();
+    boardState = Array.from({ length: rows }, () => Array(cols).fill(null));
+    moveHistory = [];
+    let xCount = 0, oCount = 0;
+
+    moves.forEach(({ r, c, player }) => {
+      if (r < rows && c < cols) {
+        boardState[r][c] = player;
+        moveHistory.push({ r, c, player });
+        if (player === "X") xCount++;
+        if (player === "O") oCount++;
+      }
+    });
+
+    currentPlayer = xCount >= oCount ? "O" : "X";
+    updateDisplay();
+
+    if (mark != "") {
+      const coords = mark.trim().split(",");
+      if (coords.length === 2) {
+        const r = parseInt(coords[0], 10) - 1;
+        const c = parseInt(coords[1], 10) - 1;
+        const cellIndex = r * cols + c;
+        const cell = boardEl.children[cellIndex];
+        if (cell) {
+          cell.innerHTML = createMarkSVG();
+	}
+      }
+    }
+  }
+
+  if (btnAuto) {
+    btnAuto.addEventListener("click", () => {
+      isAutoMode = !isAutoMode;
+      btnAuto.classList.toggle("active", isAutoMode);
+      if (isAutoMode) {
+        scheduleComputerMove();
+      } else {
+        resetAutoTimers();
+      }
+    });
+  }
+
+  if (btnHint) {
+    btnHint.addEventListener("click", () => {
+      isHintMode = !isHintMode;
+      btnHint.classList.toggle("active", isHintMode);
+      updateDisplay();
+    });
+  }
+
+  btnUndo.addEventListener("click", () => {
+    resetAutoTimers();
+    if (moveHistory.length === 0) return;
+    // In auto mode, undo both the computer's last move and the human's move before it
+    const stepsToUndo = (isAutoMode && moveHistory.length >= 2) ? 2 : 1;
+    for (let i = 0; i < stepsToUndo; i++) {
+      if (moveHistory.length === 0) break;
+      const last = moveHistory.pop();
+      boardState[last.r][last.c] = null;
+      currentPlayer = last.player;
+    }
+    updateDisplay();
+  });
+
+  btnReset.addEventListener("click", () => {
+    loadMoves(preloadedHistory);
+  });
+
+  btnClear.addEventListener("click", () => {
+    const win = checkWinner();
+    resetAutoTimers();
+    boardState = Array.from({ length: rows }, () => Array(cols).fill(null));
+    moveHistory = [];
+    currentPlayer = "X";
+    updateDisplay();
+    if (isAutoMode) {
+      console.log(win);
+      console.log(`computerPlayer = ${computerPlayer}`);
+      if (win && computerPlayer !== win.player) scheduleComputerMove();
+    }
+  });
+
+  sizeSelect.addEventListener("change", (e) => {
+    const newSize = parseInt(e.target.value, 10);
+    buildGrid(newSize, newSize);
+    preloadedHistory = parseMoves(rawMoves, newSize, newSize);
+    loadMoves(preloadedHistory);
+  });
+
+  buildGrid(rows, cols);
+  preloadedHistory = parseMoves(rawMoves, rows, cols);
+  loadMoves(preloadedHistory);
+})();
+</script>
+</div>
+  </article>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img class="lightbox-img" id="lightbox-img" alt="">
+</div>
+
+<script>
+(function () {
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightbox-img');
+
+  document.querySelectorAll('.article-image, .article-content img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      lightboxImg.src = img.currentSrc || img.src;
+      lightboxImg.alt = img.alt || '';
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
+
+    </main>
+    <footer class="site-footer">
+  <div class="container site-footer-inner">
+    <div class="footer-about">
+      <div class="footer-text">
+        <p>A Lovassy László Gimnázium 1992-ben érettségizett matematika tagozatos osztályának tudományos, kuturális és közéleti magazinja. Szerkesztők: Golden Dániel és Péter László. Email címünk: <a href="mailto:info@pimpaestudomany.hu">info@pimpaestudomany.hu</a></p>
+        <p>Kiadja a Paralelepipedon Zrt. Megjelenik nagyon ritkán, kb. 25 példányban. Még mindig nem terjeszti a Magyar Posta. Kéziratokat Google drive-on tárolunk, de néha eltűnnek. A lapot mindenki saját felelősségére olvashatja!</p>
+        <p>A címlapon jelzett fizetőeszközökön kívül elfogadható még: 0,0001; 1 üveg EKF2023 sör; 1 vödör kumisz; 2m³ földgáz; 2 talicska lengyel szén. Az online változat ingyenes, de persze nem olyan jó. Ez már csak így van.</p>
+    <p class="copyright">&copy; 2026 Pimpa és Tudomány</p>
+      </div>
+      <img class="footer-image" src="/Pimpa_stamp.jpg" alt="Pimpa pecsét">
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>
